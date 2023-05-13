@@ -156,10 +156,11 @@ local tbl =
 				mechanicTime = 75.3,
 				name = "Dark Missionary",
 				timelineIndex = 16,
-				timerOffset = -15,
+				timerOffset = -3,
 				uuid = "d09f1ed1-3111-ea21-acba-0516202359f0",
 				version = 2,
 			},
+			inheritedIndex = 7,
 		},
 		
 		{

@@ -6,15 +6,12 @@ local tbl =
 		{
 			data = 
 			{
-				name = "Disable Duty Helper",
-				uuid = "040b5298-c12f-c26b-afce-ab8342d4fbcd",
+				name = "Lightning Shot On",
+				uuid = "e9e4d83a-5766-b8ce-bac4-13cf76d973f6",
 				version = 2,
 			},
-			inheritedIndex = 12,
-			inheritedObjectUUID = "510be4b4-428c-1d26-8f59-7117e86efc0a",
-			inheritedOverwrites = 
-			{
-			},
+			inheritedIndex = 61,
+			inheritedObjectUUID = "914dd0b1-51b8-7521-b6af-0775e636ad42",
 		},
 		
 		{
@@ -161,55 +158,6 @@ local tbl =
 				version = 2,
 			},
 		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"71010d4a-09be-556a-8b20-e4ab4fa60eaf",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
-							uuid = "0c6ebbed-7d14-b35a-8dbc-a85d6c3098ea",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							conditionType = 2,
-							contentid = 11402,
-							uuid = "71010d4a-09be-556a-8b20-e4ab4fa60eaf",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 12,
-				name = "TBN",
-				timelineIndex = 1,
-				timerEndOffset = 2,
-				timerOffset = -14,
-				timerStartOffset = -14,
-				uuid = "7d705098-38a3-5697-8ded-5ef0e69f4812",
-				version = 2,
-			},
-		},
 	}, 
 	[3] = 
 	{
@@ -291,39 +239,6 @@ local tbl =
 			},
 		},
 	},
-	[8] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
-							uuid = "f8a83c6b-566c-9b11-adc0-0b60695ac454",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 40.9,
-				name = "Reprisal",
-				timelineIndex = 8,
-				timerOffset = -10,
-				uuid = "80605d43-0b75-675f-9e4f-f9f0a5dbcf60",
-				version = 2,
-			},
-		},
-	},
 	[9] = 
 	{
 		
@@ -336,7 +251,7 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Variable",
+							actionID = 7533,
 							conditions = 
 							{
 								
@@ -351,6 +266,7 @@ local tbl =
 								},
 							},
 							gVar = "ACR_RikuDRK2_Hotbar_Provoke",
+							ignoreWeaveRules = true,
 							uuid = "cb078525-1b7d-1937-a924-1824027d02e4",
 							variableTogglesType = 2,
 							version = 2,
@@ -389,6 +305,69 @@ local tbl =
 				timerOffset = -4,
 				timerStartOffset = -8,
 				uuid = "fed2acd6-da69-338a-8b24-a2420fc68085",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 25754,
+							targetType = "Other Tank",
+							uuid = "63e17d98-df00-4868-8ad8-8709ce85cd5b",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 48.1,
+				name = "Oblation Other Tank",
+				timelineIndex = 9,
+				timerOffset = -10,
+				uuid = "0b68ca3d-d284-b821-8db4-4e7e3e48cf1c",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 7533,
+							endIfUsed = true,
+							gVar = "ACR_RikuDRK2_Hotbar_Provoke",
+							ignoreWeaveRules = true,
+							uuid = "cb078525-1b7d-1937-a924-1824027d02e4",
+							variableTogglesType = 2,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+				},
+				eventType = 3,
+				mechanicTime = 48.1,
+				name = "Emergency Provoke",
+				timeRange = true,
+				timelineIndex = 9,
+				timerOffset = -4,
+				timerStartOffset = -3,
+				uuid = "eb155798-c4d9-8438-855f-41143337bc97",
 				version = 2,
 			},
 		},
@@ -662,6 +641,20 @@ local tbl =
 				timerOffset = -2.4000000953674,
 			},
 		},
+		
+		{
+			data = 
+			{
+				name = "Gorgon Slidecast Force Medium",
+				uuid = "2ec4c068-5827-d505-becd-8f65563aeef1",
+				version = 2,
+			},
+			inheritedObjectUUID = "5a6c5d0b-a462-78af-a276-7a5f7141a7f8",
+			inheritedOverwrites = 
+			{
+				timerOffset = -1.6000000238419,
+			},
+		},
 	},
 	[19] = 
 	{
@@ -679,45 +672,37 @@ local tbl =
 				timerOffset = -2.5999999046326,
 			},
 		},
-	},
-	[20] = 
-	{
 		
 		{
 			data = 
 			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_Oblation",
-							targetSubType = "Lowest HP",
-							targetType = "Party",
-							uuid = "ff052a9b-f7cf-9b14-9b42-55d3bd2b0841",
-							variableIsHover = true,
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 132.9,
-				name = "TBN Lowest",
-				timelineIndex = 20,
-				timerOffset = -4,
-				uuid = "a4c09841-9f4d-cf68-8de9-f9dc66174765",
+				name = "Gorgon Slidecast Force Medium",
+				uuid = "e7558ea4-ded3-47d1-8832-bbfcea083f23",
 				version = 2,
+			},
+			inheritedObjectUUID = "9a081f1b-db73-e8c6-8f01-5e2a84104fb5",
+			inheritedOverwrites = 
+			{
+				timerOffset = -1.6000000238419,
 			},
 		},
 	},
 	[21] = 
 	{
+		
+		{
+			data = 
+			{
+				name = "Gorgon Slidecast Force Medium",
+				uuid = "3fa7371d-a4a1-449c-8887-8ce56b8b31c1",
+				version = 2,
+			},
+			inheritedObjectUUID = "4559223b-3c9d-938c-8b0b-8caec7850a5a",
+			inheritedOverwrites = 
+			{
+				timerOffset = -1.6000000238419,
+			},
+		},
 		
 		{
 			data = 
@@ -740,63 +725,13 @@ local tbl =
 			data = 
 			{
 				name = "Gorgon Slidecast Force Medium",
-				uuid = "fce640fb-9e54-7f2a-a317-595e4d745445",
+				uuid = "affc34cb-dba9-d777-9550-eca674d91beb",
 				version = 2,
 			},
 			inheritedObjectUUID = "1d271802-4cc1-873b-841d-b3ffbeaafc73",
 			inheritedOverwrites = 
 			{
 				timerOffset = -1.6000000238419,
-			},
-		},
-		
-		{
-			data = 
-			{
-				name = "Gorgon Slidecast Force Long",
-				uuid = "2c7b39ba-f20b-c508-80a0-5fc03264baa4",
-				version = 2,
-			},
-			inheritedObjectUUID = "2e966775-368a-87d4-9873-2b0268de43d1",
-			inheritedOverwrites = 
-			{
-				timerOffset = -2.5999999046326,
-			},
-		},
-	},
-	[24] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_Oblation",
-							targetSubType = "Lowest HP",
-							targetType = "Party",
-							uuid = "ff052a9b-f7cf-9b14-9b42-55d3bd2b0841",
-							variableIsHover = true,
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 140.9,
-				name = "TBN Lowest",
-				timelineIndex = 24,
-				timerOffset = -4,
-				uuid = "33d7f6aa-a801-6c4e-b262-fc597e04d308",
-				version = 2,
 			},
 		},
 	},
@@ -929,7 +864,6 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 212.3,
 				name = "Reprisal",
 				timeRange = true,
@@ -941,6 +875,20 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				name = "Reprisal",
+				uuid = "85eda7fc-e4a1-282c-9e98-87459faba05a",
+				version = 2,
+			},
+			inheritedObjectUUID = "8d6948e9-d3e2-e86c-9114-d56e15f6cc62",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
 		},
 	},
 	[34] = 
@@ -998,42 +946,6 @@ local tbl =
 			},
 		},
 	},
-	[35] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightMouse",
-							targetSubType = "Lowest HP",
-							targetType = "Party",
-							uuid = "ff052a9b-f7cf-9b14-9b42-55d3bd2b0841",
-							variableIsHover = true,
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 219.5,
-				name = "TBN Lowest",
-				timelineIndex = 35,
-				timerOffset = -4,
-				uuid = "0cfd18d0-c1e9-b110-bfdc-0f7b1506cab3",
-				version = 2,
-			},
-		},
-	},
 	[41] = 
 	{
 		
@@ -1077,6 +989,7 @@ local tbl =
 				uuid = "0dab4053-d4c1-d764-ab87-bf9ee8d49294",
 				version = 2,
 			},
+			inheritedIndex = 3,
 			inheritedObjectUUID = "1791a3c1-8f61-233e-bfa0-5c70e6fa7a94",
 			inheritedOverwrites = 
 			{
@@ -1292,22 +1205,10 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"ea9d7091-02fe-3e58-93e2-c668db488c6b",
-									false,
-								},
-								
-								{
-									"f0922c71-ed0b-6c9c-9d36-b04bac2da218",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Provoke",
-							uuid = "cb078525-1b7d-1937-a924-1824027d02e4",
+							actionID = 7533,
+							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
+							ignoreWeaveRules = true,
+							uuid = "ddd0cb98-1527-8250-956c-7c0fe2b26f75",
 							variableTogglesType = 2,
 							version = 2,
 						},
@@ -1315,36 +1216,47 @@ local tbl =
 				},
 				conditions = 
 				{
+				},
+				mechanicTime = 452.3,
+				name = "Provoke OT",
+				timelineIndex = 61,
+				timerOffset = -4,
+				uuid = "82fe5aab-fa7f-09ba-96f4-4d26efc0f61a",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
 					
 					{
 						data = 
 						{
-							category = "Self",
-							conditionType = 9,
-							partyTargetType = "Target of Current Target Spell",
-							uuid = "ea9d7091-02fe-3e58-93e2-c668db488c6b",
+							actionID = 7533,
+							endIfUsed = true,
+							gVar = "ACR_RikuDRK2_Hotbar_Provoke",
+							ignoreWeaveRules = true,
+							uuid = "cb078525-1b7d-1937-a924-1824027d02e4",
+							variableTogglesType = 2,
 							version = 2,
 						},
+						inheritedIndex = 1,
 					},
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 31045,
-							conditionType = 7,
-							uuid = "f0922c71-ed0b-6c9c-9d36-b04bac2da218",
-							version = 2,
-						},
-					},
+				},
+				conditions = 
+				{
 				},
 				eventType = 3,
 				mechanicTime = 452.3,
-				name = "Provoke OT",
+				name = "Emergency Provoke",
 				timeRange = true,
 				timelineIndex = 61,
 				timerOffset = -4,
-				timerStartOffset = -8,
-				uuid = "6683f2ce-a75e-948b-b70e-243c8fb135be",
+				timerStartOffset = -3,
+				uuid = "daf73c5f-ac3b-bf68-b84d-72d613a310f1",
 				version = 2,
 			},
 		},
@@ -1831,6 +1743,287 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 7533,
+							conditions = 
+							{
+								
+								{
+									"432ec4a4-768d-0fff-a5ed-ac557d8bf8a7",
+									true,
+								},
+								
+								{
+									"b26071e0-b120-97f3-9038-24eb64a43700",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
+							ignoreWeaveRules = true,
+							targetType = "Current Target",
+							uuid = "cefd01f3-7b53-be33-ae42-474325b2f8f4",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Event",
+							channelCheckSpellID = 31045,
+							conditionType = 7,
+							eventArgType = 2,
+							uuid = "432ec4a4-768d-0fff-a5ed-ac557d8bf8a7",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							channelCheckTimeRemain = 6,
+							channelCheckType = 3,
+							comparator = 2,
+							conditionType = 7,
+							uuid = "b26071e0-b120-97f3-9038-24eb64a43700",
+							version = 2,
+						},
+					},
+				},
+				eventType = 3,
+				mechanicTime = 545.9,
+				name = "Provoke OT (Next TB)",
+				timeRange = true,
+				timelineIndex = 77,
+				timerEndOffset = 100,
+				timerOffset = -4,
+				timerStartOffset = -10,
+				uuid = "a1a70118-f9ee-959c-8106-f5356985ae7c",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 3636,
+							conditions = 
+							{
+								
+								{
+									"0782e7d4-b6e0-b05f-9619-8474b85b641d",
+									true,
+								},
+								
+								{
+									"9bfe4f0d-f823-ef0a-a4c5-71affd5ff224",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
+							ignoreWeaveRules = true,
+							uuid = "60c5573a-c804-af0d-8002-f7fce7b1a5aa",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							channelCheckSpellID = 31045,
+							conditionType = 7,
+							eventArgType = 2,
+							eventSpellID = 31045,
+							uuid = "0782e7d4-b6e0-b05f-9619-8474b85b641d",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							channelCheckTimeRemain = 6,
+							channelCheckType = 3,
+							comparator = 2,
+							conditionType = 7,
+							uuid = "9bfe4f0d-f823-ef0a-a4c5-71affd5ff224",
+							version = 2,
+						},
+					},
+				},
+				eventType = 3,
+				mechanicTime = 545.9,
+				name = "Shadow Wall (Next TB)",
+				timeRange = true,
+				timelineIndex = 77,
+				timerEndOffset = 400,
+				timerOffset = -5,
+				timerStartOffset = -10,
+				uuid = "82c67df0-8fd6-caa2-893e-f903ef93e2ce",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 7531,
+							conditions = 
+							{
+								
+								{
+									"960aa926-9ec5-9e5f-8370-fb67fec4e078",
+									true,
+								},
+								
+								{
+									"f29ee63b-955a-f401-9c51-c30cb7dafb55",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB2_Tankbar_Rampart",
+							ignoreWeaveRules = true,
+							uuid = "47974b9d-a768-2f50-85f6-e473cad912f2",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							channelCheckSpellID = 31045,
+							conditionType = 7,
+							uuid = "960aa926-9ec5-9e5f-8370-fb67fec4e078",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							channelCheckTimeRemain = 6,
+							channelCheckType = 3,
+							comparator = 2,
+							conditionType = 7,
+							uuid = "f29ee63b-955a-f401-9c51-c30cb7dafb55",
+							version = 2,
+						},
+					},
+				},
+				eventType = 3,
+				mechanicTime = 545.9,
+				name = "Rampart (Next TB)",
+				timeRange = true,
+				timelineIndex = 77,
+				timerEndOffset = 400,
+				timerOffset = -5,
+				timerStartOffset = -10,
+				uuid = "13455423-bc09-5cb0-bbe1-526ebcd45d18",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 25754,
+							conditions = 
+							{
+								
+								{
+									"d098678e-3cd6-a888-8d11-4224ca7ebb6c",
+									true,
+								},
+								
+								{
+									"aba35497-c3ee-a3ba-b0c7-499d8cde4f7c",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
+							ignoreWeaveRules = true,
+							uuid = "930af8cf-e6db-281f-aee5-484d44fb5f4b",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							channelCheckSpellID = 31045,
+							conditionType = 7,
+							uuid = "d098678e-3cd6-a888-8d11-4224ca7ebb6c",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							channelCheckTimeRemain = 6,
+							channelCheckType = 3,
+							comparator = 2,
+							conditionType = 7,
+							uuid = "aba35497-c3ee-a3ba-b0c7-499d8cde4f7c",
+							version = 2,
+						},
+					},
+				},
+				eventType = 3,
+				mechanicTime = 545.9,
+				name = "Oblation (Next TB)",
+				timeRange = true,
+				timelineIndex = 77,
+				timerEndOffset = 400,
+				timerOffset = -5,
+				timerStartOffset = -10,
+				uuid = "867e18d6-9166-f24f-99ba-19e3b7689254",
+				version = 2,
+			},
+		},
 	},
 	[79] = 
 	{
@@ -2074,20 +2267,6 @@ local tbl =
 		{
 			data = 
 			{
-				name = "[SMN] Precast Searing Light",
-				uuid = "fd38a963-8b6b-1cc6-bdb7-49b01e4eeba7",
-				version = 2,
-			},
-			inheritedIndex = 11,
-			inheritedObjectUUID = "b64eada0-c126-1538-8f00-957e97894962",
-			inheritedOverwrites = 
-			{
-			},
-		},
-		
-		{
-			data = 
-			{
 				actions = 
 				{
 					
@@ -2292,6 +2471,75 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 7531,
+							conditions = 
+							{
+								
+								{
+									"520464a6-d286-06a1-8214-552ac7dacd24",
+									true,
+								},
+								
+								{
+									"feb368df-bfe2-fb63-a29a-96c9e1120dd2",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB2_Tankbar_Rampart",
+							ignoreWeaveRules = true,
+							uuid = "051ec17b-2a67-1555-aa18-0d4e72811538",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							channelCheckSpellID = 31045,
+							conditionType = 7,
+							uuid = "520464a6-d286-06a1-8214-552ac7dacd24",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							channelCheckTimeRemain = 6,
+							channelCheckType = 3,
+							comparator = 2,
+							conditionType = 7,
+							uuid = "feb368df-bfe2-fb63-a29a-96c9e1120dd2",
+							version = 2,
+						},
+					},
+				},
+				eventType = 3,
+				mechanicTime = 643.5,
+				name = "Rampart (Next TB)",
+				timeRange = true,
+				timelineIndex = 90,
+				timerEndOffset = 400,
+				timerOffset = -5,
+				timerStartOffset = -10,
+				uuid = "3184d4f2-0314-820c-9bf6-d96418426c23",
+				version = 2,
+			},
+		},
 	},
 	[91] = 
 	{
@@ -2305,7 +2553,7 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Variable",
+							actionID = 7533,
 							conditions = 
 							{
 								
@@ -2320,6 +2568,7 @@ local tbl =
 								},
 							},
 							gVar = "ACR_RikuDRK2_Hotbar_Provoke",
+							ignoreWeaveRules = true,
 							uuid = "cb078525-1b7d-1937-a924-1824027d02e4",
 							variableTogglesType = 2,
 							version = 2,
@@ -2359,6 +2608,41 @@ local tbl =
 				timerOffset = -4,
 				timerStartOffset = -8,
 				uuid = "695b783d-3679-4d2b-b56e-c647c3d52b0f",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 7533,
+							endIfUsed = true,
+							gVar = "ACR_RikuDRK2_Hotbar_Provoke",
+							ignoreWeaveRules = true,
+							uuid = "cb078525-1b7d-1937-a924-1824027d02e4",
+							variableTogglesType = 2,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+				},
+				eventType = 3,
+				mechanicTime = 700,
+				name = "Emergency Provoke",
+				timeRange = true,
+				timelineIndex = 91,
+				timerOffset = -4,
+				timerStartOffset = -3,
+				uuid = "3e504a63-4114-8644-a387-8a7949448d41",
 				version = 2,
 			},
 		},
@@ -2836,7 +3120,6 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 5016,
 				name = "Dark Missionary Party Range Check",
 				timelineIndex = 104,
@@ -3283,8 +3566,10 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_OblationOT",
+							gVar = "ACR_RikuDRK2_Tankbar_Oblation",
+							targetType = "Other Tank",
 							uuid = "6b0a06e7-3136-220e-83d3-8f485f98454c",
+							variableIsHover = true,
 							variableTogglesType = 3,
 							version = 2,
 						},
@@ -3300,7 +3585,7 @@ local tbl =
 				uuid = "0f34262d-f465-4234-a99a-618bfd3ba7e6",
 				version = 2,
 			},
-			inheritedIndex = 5,
+			inheritedIndex = 7,
 		},
 	},
 	[124] = 
@@ -3525,60 +3810,6 @@ local tbl =
 			},
 		},
 	},
-	[138] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"2007f777-42ff-9399-8d3a-540274f69efa",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
-							uuid = "7dad739c-ef0a-9c00-a46b-e282a4450aa5",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							comparator = 2,
-							conditionType = 6,
-							inRangeValue = 5,
-							uuid = "2007f777-42ff-9399-8d3a-540274f69efa",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 5170.9,
-				name = "Reprisal",
-				timeRange = true,
-				timelineIndex = 138,
-				timerEndOffset = -0.5,
-				timerOffset = -9,
-				timerStartOffset = -9,
-				uuid = "d72989b0-90eb-4dba-9058-719ead2d064a",
-				version = 2,
-			},
-		},
-	},
 	[140] = 
 	{
 		
@@ -3673,6 +3904,60 @@ local tbl =
 			},
 		},
 	},
+	[142] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"2007f777-42ff-9399-8d3a-540274f69efa",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
+							uuid = "7dad739c-ef0a-9c00-a46b-e282a4450aa5",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							comparator = 2,
+							conditionType = 6,
+							inRangeValue = 5,
+							uuid = "2007f777-42ff-9399-8d3a-540274f69efa",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 5185.3,
+				name = "Reprisal",
+				timeRange = true,
+				timelineIndex = 142,
+				timerEndOffset = -0.5,
+				timerOffset = -9,
+				timerStartOffset = -9,
+				uuid = "36003b47-22b8-52e9-b396-f03eb113387a",
+				version = 2,
+			},
+		},
+	},
 	[157] = 
 	{
 		
@@ -3698,11 +3983,10 @@ local tbl =
 				},
 				mechanicTime = 5219.3,
 				name = "Rampart",
-				timeRange = true,
 				timelineIndex = 157,
 				timerOffset = -19,
 				timerStartOffset = -19,
-				uuid = "d34f909c-9d17-9662-b038-2a78074bb4af",
+				uuid = "dbb26020-50b9-ba95-a0a2-35d9f448dd4f",
 				version = 2,
 			},
 		},

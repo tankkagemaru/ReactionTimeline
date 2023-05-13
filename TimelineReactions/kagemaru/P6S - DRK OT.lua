@@ -221,6 +221,67 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightMT",
+							uuid = "786b06a1-bc4a-8bcb-8afb-010d09f7dfa1",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 28,
+				name = "TBN MT",
+				timelineIndex = 3,
+				timerOffset = -6,
+				uuid = "6ac97f0b-e460-e22b-bb0d-3e1b0bbe3695",
+				version = 2,
+			},
+			inheritedIndex = 11,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Oblation",
+							targetType = "Other Tank",
+							uuid = "cce2ca65-cf4c-dc04-beea-79ef3d800f90",
+							variableIsHover = true,
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 28,
+				name = "Oblation MT",
+				timelineIndex = 3,
+				timerOffset = -9,
+				uuid = "9f3be43a-6f21-9657-87ab-c23223f798fa",
+				version = 2,
+			},
+		},
 	}, 
 	[10] = 
 	{
@@ -431,6 +492,7 @@ local tbl =
 									true,
 								},
 							},
+							endIfUsed = true,
 							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
@@ -465,7 +527,6 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				eventType = 3,
 				mechanicTime = 114.7,
 				name = "Provoke OT",
@@ -1022,6 +1083,7 @@ local tbl =
 									true,
 								},
 							},
+							endIfUsed = true,
 							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
@@ -1056,7 +1118,6 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				eventType = 3,
 				mechanicTime = 227,
 				name = "Provoke OT",
@@ -1066,421 +1127,6 @@ local tbl =
 				timerOffset = -4,
 				timerStartOffset = -5,
 				uuid = "d8a602e7-ac2e-52ca-8419-da8d916dccde",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 7531,
-							conditions = 
-							{
-								
-								{
-									"1510fc19-f622-b048-9ee5-ecf72ebad553",
-									true,
-								},
-								
-								{
-									"3dbeae25-9525-6d90-b06b-d47e75271d72",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
-							ignoreWeaveRules = true,
-							uuid = "6763175b-b810-6a05-aa3b-788f201bb57e",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckTimeRemain = 10,
-							channelCheckType = 3,
-							comparator = 2,
-							conditionType = 7,
-							uuid = "1510fc19-f622-b048-9ee5-ecf72ebad553",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30855,
-							conditionType = 7,
-							uuid = "3dbeae25-9525-6d90-b06b-d47e75271d72",
-							version = 2,
-						},
-					},
-				},
-				eventType = 3,
-				mechanicTime = 227,
-				name = "Rampart Split test",
-				timeRange = true,
-				timelineIndex = 45,
-				timerEndOffset = 18,
-				timerOffset = -20,
-				timerStartOffset = -4,
-				uuid = "3692cf48-b7c0-ab65-9ba5-b3292404a214",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 25754,
-							conditions = 
-							{
-								
-								{
-									"bc29685f-0cb2-e420-b09a-5452bb18bc2e",
-									true,
-								},
-								
-								{
-									"d91e2b25-b40f-87f7-b371-58675c3aea7f",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
-							ignoreWeaveRules = true,
-							uuid = "2625e71d-72e2-f561-bc9c-985d8060f68f",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckTimeRemain = 10,
-							channelCheckType = 3,
-							comparator = 2,
-							conditionType = 7,
-							uuid = "bc29685f-0cb2-e420-b09a-5452bb18bc2e",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30855,
-							conditionType = 7,
-							uuid = "d91e2b25-b40f-87f7-b371-58675c3aea7f",
-							version = 2,
-						},
-					},
-				},
-				eventType = 3,
-				mechanicTime = 227,
-				name = "Oblation Split test",
-				timeRange = true,
-				timelineIndex = 45,
-				timerEndOffset = 18,
-				timerOffset = -20,
-				timerStartOffset = -4,
-				uuid = "2257d9ac-0e38-32d7-a2d1-86e635e8509b",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 3634,
-							conditions = 
-							{
-								
-								{
-									"bc29685f-0cb2-e420-b09a-5452bb18bc2e",
-									true,
-								},
-								
-								{
-									"d91e2b25-b40f-87f7-b371-58675c3aea7f",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
-							ignoreWeaveRules = true,
-							uuid = "2625e71d-72e2-f561-bc9c-985d8060f68f",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckTimeRemain = 10,
-							channelCheckType = 3,
-							comparator = 2,
-							conditionType = 7,
-							uuid = "bc29685f-0cb2-e420-b09a-5452bb18bc2e",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30855,
-							conditionType = 7,
-							uuid = "d91e2b25-b40f-87f7-b371-58675c3aea7f",
-							version = 2,
-						},
-					},
-				},
-				eventType = 3,
-				mechanicTime = 227,
-				name = "Dark Mind Split test",
-				timeRange = true,
-				timelineIndex = 45,
-				timerEndOffset = 18,
-				timerOffset = -20,
-				timerStartOffset = -4,
-				uuid = "3ecc9f26-fa76-cbaa-8105-8012c1d618ed",
-				version = 2,
-			},
-			inheritedIndex = 13,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 7531,
-							conditions = 
-							{
-								
-								{
-									"85bbeda7-c65f-09cf-9f7a-2cbf8c0b910a",
-									true,
-								},
-								
-								{
-									"6685f326-ad46-c2ba-bf19-7731c680d61d",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
-							ignoreWeaveRules = true,
-							uuid = "38253bcc-e340-cb1a-af58-0f4fdbf24676",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckTimeRemain = 10,
-							channelCheckType = 3,
-							comparator = 2,
-							conditionType = 7,
-							uuid = "85bbeda7-c65f-09cf-9f7a-2cbf8c0b910a",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30858,
-							conditionType = 7,
-							uuid = "6685f326-ad46-c2ba-bf19-7731c680d61d",
-							version = 2,
-						},
-					},
-				},
-				eventType = 3,
-				mechanicTime = 227,
-				name = "Rampart Cone test",
-				timeRange = true,
-				timelineIndex = 45,
-				timerEndOffset = 18,
-				timerOffset = -20,
-				timerStartOffset = -4,
-				uuid = "7e454c33-3741-3ec5-86a8-605d237287ef",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 25754,
-							conditions = 
-							{
-								
-								{
-									"a49980bf-966b-54c5-bebe-db96ce01416c",
-									true,
-								},
-								
-								{
-									"3fc1f524-662e-3952-9ed1-a8d98a80b060",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
-							ignoreWeaveRules = true,
-							uuid = "d16e40ac-61f1-2a57-af5d-02209c90b653",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckTimeRemain = 10,
-							channelCheckType = 3,
-							comparator = 2,
-							conditionType = 7,
-							uuid = "a49980bf-966b-54c5-bebe-db96ce01416c",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30858,
-							conditionType = 7,
-							uuid = "3fc1f524-662e-3952-9ed1-a8d98a80b060",
-							version = 2,
-						},
-					},
-				},
-				eventType = 3,
-				mechanicTime = 227,
-				name = "Oblation Cone test",
-				timeRange = true,
-				timelineIndex = 45,
-				timerEndOffset = 18,
-				timerOffset = -20,
-				timerStartOffset = -4,
-				uuid = "25b369ff-60f8-44a3-9e7e-a4b23f2fc9f7",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 3634,
-							conditions = 
-							{
-								
-								{
-									"a49980bf-966b-54c5-bebe-db96ce01416c",
-									true,
-								},
-								
-								{
-									"3fc1f524-662e-3952-9ed1-a8d98a80b060",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
-							ignoreWeaveRules = true,
-							uuid = "d16e40ac-61f1-2a57-af5d-02209c90b653",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckTimeRemain = 10,
-							channelCheckType = 3,
-							comparator = 2,
-							conditionType = 7,
-							uuid = "a49980bf-966b-54c5-bebe-db96ce01416c",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30858,
-							conditionType = 7,
-							uuid = "3fc1f524-662e-3952-9ed1-a8d98a80b060",
-							version = 2,
-						},
-					},
-				},
-				eventType = 3,
-				mechanicTime = 227,
-				name = "Dark Mind Cone test",
-				timeRange = true,
-				timelineIndex = 45,
-				timerEndOffset = 18,
-				timerOffset = -20,
-				timerStartOffset = -4,
-				uuid = "c6a23d62-fcf0-8b0b-ad50-c076fdd4b627",
 				version = 2,
 			},
 		},
@@ -1644,53 +1290,6 @@ local tbl =
 				timelineIndex = 46,
 				timerOffset = -8,
 				uuid = "639848a4-7521-c1f2-a378-8ee2e63d3309",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"352d579b-d0b8-3754-9b09-84d57b014572",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Grit",
-							uuid = "07aa72ab-4280-74d7-a449-0df09163ce99",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffID = 743,
-							category = "Self",
-							uuid = "352d579b-d0b8-3754-9b09-84d57b014572",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 239.3,
-				name = "Turn Off Stance",
-				timelineIndex = 46,
-				timerOffset = 5,
-				uuid = "5a2d26df-fdc9-1c24-8c39-07eeb4db8b4c",
 				version = 2,
 			},
 		},
@@ -1928,89 +1527,6 @@ local tbl =
 			},
 		},
 	},
-	[57] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"8ce87578-3787-5fc8-bca8-f19fcfe81716",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
-							uuid = "703ed67f-cafb-acff-8646-fb7b72f1080d",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"f9d74f32-4d9b-0b3b-befb-3ecf86128beb",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Tankbar_OblationOT",
-							uuid = "21e3a7ec-11a9-fbb9-9068-aac76ef8c59c",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							conditionType = 4,
-							enmityValue = 100,
-							name = "MT Enmity",
-							uuid = "8ce87578-3787-5fc8-bca8-f19fcfe81716",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							comparator = 2,
-							conditionType = 4,
-							enmityValue = 99,
-							name = "Off Tank Enmity",
-							uuid = "f9d74f32-4d9b-0b3b-befb-3ecf86128beb",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 305.1,
-				name = "Oblation 1",
-				timelineIndex = 57,
-				timerOffset = -10,
-				uuid = "78da3e5a-dd48-ec8e-b73e-17daaec6759c",
-				version = 2,
-			},
-			inheritedIndex = 3,
-		},
-	},
 	[64] = 
 	{
 		
@@ -2067,57 +1583,6 @@ local tbl =
 				timelineIndex = 64,
 				timerOffset = 14,
 				uuid = "5ac67756-c012-5bce-bdf9-2ef31529816a",
-				version = 2,
-			},
-		},
-	},
-	[66] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"03c9e072-c9b8-1aff-8726-edfdbfda29b5",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Grit",
-							uuid = "e421fc49-8002-39e6-9d61-4dc7a2e25a89",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffCheckType = 2,
-							buffID = 743,
-							category = "Self",
-							uuid = "03c9e072-c9b8-1aff-8726-edfdbfda29b5",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 339.9,
-				name = "OT Stance On",
-				timelineIndex = 66,
-				timerOffset = 10,
-				uuid = "67e0494b-1f70-8b11-8834-1f31b43ee326",
 				version = 2,
 			},
 		},
@@ -2180,6 +1645,7 @@ local tbl =
 									true,
 								},
 							},
+							endIfUsed = true,
 							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
@@ -2214,7 +1680,6 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				eventType = 3,
 				mechanicTime = 356.9,
 				name = "Provoke OT",
@@ -2224,421 +1689,6 @@ local tbl =
 				timerOffset = -4,
 				timerStartOffset = -5,
 				uuid = "31b6aa57-2405-ce59-b545-bb15c04a5114",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 7531,
-							conditions = 
-							{
-								
-								{
-									"1510fc19-f622-b048-9ee5-ecf72ebad553",
-									true,
-								},
-								
-								{
-									"3dbeae25-9525-6d90-b06b-d47e75271d72",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
-							ignoreWeaveRules = true,
-							uuid = "6763175b-b810-6a05-aa3b-788f201bb57e",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckTimeRemain = 10,
-							channelCheckType = 3,
-							comparator = 2,
-							conditionType = 7,
-							uuid = "1510fc19-f622-b048-9ee5-ecf72ebad553",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30855,
-							conditionType = 7,
-							uuid = "3dbeae25-9525-6d90-b06b-d47e75271d72",
-							version = 2,
-						},
-					},
-				},
-				eventType = 3,
-				mechanicTime = 356.9,
-				name = "Rampart Split test",
-				timeRange = true,
-				timelineIndex = 69,
-				timerEndOffset = 18,
-				timerOffset = -20,
-				timerStartOffset = -4,
-				uuid = "5091f7d1-faea-0880-8fa7-4094222849b5",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 25754,
-							conditions = 
-							{
-								
-								{
-									"bc29685f-0cb2-e420-b09a-5452bb18bc2e",
-									true,
-								},
-								
-								{
-									"d91e2b25-b40f-87f7-b371-58675c3aea7f",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
-							ignoreWeaveRules = true,
-							uuid = "2625e71d-72e2-f561-bc9c-985d8060f68f",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckTimeRemain = 10,
-							channelCheckType = 3,
-							comparator = 2,
-							conditionType = 7,
-							uuid = "bc29685f-0cb2-e420-b09a-5452bb18bc2e",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30855,
-							conditionType = 7,
-							uuid = "d91e2b25-b40f-87f7-b371-58675c3aea7f",
-							version = 2,
-						},
-					},
-				},
-				eventType = 3,
-				mechanicTime = 356.9,
-				name = "Oblation Split test",
-				timeRange = true,
-				timelineIndex = 69,
-				timerEndOffset = 18,
-				timerOffset = -20,
-				timerStartOffset = -4,
-				uuid = "387ca66f-8451-a325-8dd8-24e3634ccf2c",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 3634,
-							conditions = 
-							{
-								
-								{
-									"bc29685f-0cb2-e420-b09a-5452bb18bc2e",
-									true,
-								},
-								
-								{
-									"d91e2b25-b40f-87f7-b371-58675c3aea7f",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
-							ignoreWeaveRules = true,
-							uuid = "2625e71d-72e2-f561-bc9c-985d8060f68f",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckTimeRemain = 10,
-							channelCheckType = 3,
-							comparator = 2,
-							conditionType = 7,
-							uuid = "bc29685f-0cb2-e420-b09a-5452bb18bc2e",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30855,
-							conditionType = 7,
-							uuid = "d91e2b25-b40f-87f7-b371-58675c3aea7f",
-							version = 2,
-						},
-					},
-				},
-				eventType = 3,
-				mechanicTime = 356.9,
-				name = "Dark Mind Split test",
-				timeRange = true,
-				timelineIndex = 69,
-				timerEndOffset = 18,
-				timerOffset = -20,
-				timerStartOffset = -4,
-				uuid = "3f90f1cf-7f2e-224a-8904-23be3c58af5f",
-				version = 2,
-			},
-			inheritedIndex = 13,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 7531,
-							conditions = 
-							{
-								
-								{
-									"85bbeda7-c65f-09cf-9f7a-2cbf8c0b910a",
-									true,
-								},
-								
-								{
-									"6685f326-ad46-c2ba-bf19-7731c680d61d",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
-							ignoreWeaveRules = true,
-							uuid = "38253bcc-e340-cb1a-af58-0f4fdbf24676",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckTimeRemain = 10,
-							channelCheckType = 3,
-							comparator = 2,
-							conditionType = 7,
-							uuid = "85bbeda7-c65f-09cf-9f7a-2cbf8c0b910a",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30858,
-							conditionType = 7,
-							uuid = "6685f326-ad46-c2ba-bf19-7731c680d61d",
-							version = 2,
-						},
-					},
-				},
-				eventType = 3,
-				mechanicTime = 356.9,
-				name = "Rampart Cone test",
-				timeRange = true,
-				timelineIndex = 69,
-				timerEndOffset = 18,
-				timerOffset = -20,
-				timerStartOffset = -4,
-				uuid = "d870e687-bd5e-d40d-b4b0-b938067d8726",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 25754,
-							conditions = 
-							{
-								
-								{
-									"a49980bf-966b-54c5-bebe-db96ce01416c",
-									true,
-								},
-								
-								{
-									"3fc1f524-662e-3952-9ed1-a8d98a80b060",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
-							ignoreWeaveRules = true,
-							uuid = "d16e40ac-61f1-2a57-af5d-02209c90b653",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckTimeRemain = 10,
-							channelCheckType = 3,
-							comparator = 2,
-							conditionType = 7,
-							uuid = "a49980bf-966b-54c5-bebe-db96ce01416c",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30858,
-							conditionType = 7,
-							uuid = "3fc1f524-662e-3952-9ed1-a8d98a80b060",
-							version = 2,
-						},
-					},
-				},
-				eventType = 3,
-				mechanicTime = 356.9,
-				name = "Oblation Cone test",
-				timeRange = true,
-				timelineIndex = 69,
-				timerEndOffset = 18,
-				timerOffset = -20,
-				timerStartOffset = -4,
-				uuid = "9c4b2ff3-0ea1-296e-8381-77af757eb7fb",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 3634,
-							conditions = 
-							{
-								
-								{
-									"a49980bf-966b-54c5-bebe-db96ce01416c",
-									true,
-								},
-								
-								{
-									"3fc1f524-662e-3952-9ed1-a8d98a80b060",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
-							ignoreWeaveRules = true,
-							uuid = "d16e40ac-61f1-2a57-af5d-02209c90b653",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckTimeRemain = 10,
-							channelCheckType = 3,
-							comparator = 2,
-							conditionType = 7,
-							uuid = "a49980bf-966b-54c5-bebe-db96ce01416c",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30858,
-							conditionType = 7,
-							uuid = "3fc1f524-662e-3952-9ed1-a8d98a80b060",
-							version = 2,
-						},
-					},
-				},
-				eventType = 3,
-				mechanicTime = 356.9,
-				name = "Dark Mind Cone test",
-				timeRange = true,
-				timelineIndex = 69,
-				timerEndOffset = 18,
-				timerOffset = -20,
-				timerStartOffset = -4,
-				uuid = "09bddd5c-b11f-fc0f-a41b-6033827cc6a4",
 				version = 2,
 			},
 		},
@@ -2828,6 +1878,7 @@ local tbl =
 									true,
 								},
 							},
+							endIfUsed = true,
 							gVar = "ACR_RikuDRK2_Hotbar_Provoke",
 							uuid = "6a33290c-06de-7a6c-8b8d-5cba6e1c827e",
 							variableTogglesType = 2,
@@ -2898,53 +1949,6 @@ local tbl =
 				timelineIndex = 70,
 				timerOffset = -8,
 				uuid = "b7235657-0f78-b35d-8053-1c5cd75c5351",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"499330c2-39b5-681f-9542-a769e4e20f18",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Grit",
-							uuid = "dc76f966-4709-0f88-91e0-c9957eae0086",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffID = 743,
-							category = "Self",
-							uuid = "499330c2-39b5-681f-9542-a769e4e20f18",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 372.2,
-				name = "Turn Off Stance",
-				timelineIndex = 70,
-				timerOffset = 5,
-				uuid = "1036d73c-e84b-b49c-adcc-18113a61b04a",
 				version = 2,
 			},
 		},
@@ -3259,74 +2263,6 @@ local tbl =
 		{
 			data = 
 			{
-				name = "Jumps Off",
-				uuid = "b900b46b-8dac-3599-a787-c716892a4477",
-				version = 2,
-			},
-			inheritedObjectUUID = "40e9f65d-eac5-741d-987a-8fed42c628d4",
-			inheritedOverwrites = 
-			{
-				actions = 
-				{
-					
-					{
-						type = "add",
-						value = 
-						{
-							data = 
-							{
-								name = "",
-								uuid = "6ebfe44c-d6e3-e172-8676-3f7b75c75c76",
-								version = 2,
-							},
-							inheritedObjectUUID = "75bf41c5-6d13-789a-b560-b652942bb19d",
-							inheritedOverwrites = 
-							{
-								gVar = "ACR_RikuDRK2_Jumps",
-							},
-						},
-					},
-				},
-			},
-		},
-		
-		{
-			data = 
-			{
-				name = "Jumps On",
-				uuid = "44f715cf-7346-cbc0-84c2-912a311058dd",
-				version = 2,
-			},
-			inheritedObjectUUID = "c7074907-faf2-465a-abd0-c9cfe0d8d6cc",
-			inheritedOverwrites = 
-			{
-				actions = 
-				{
-					
-					{
-						type = "add",
-						value = 
-						{
-							data = 
-							{
-								name = "",
-								uuid = "162053ca-db3b-9556-92df-827f84729132",
-								version = 2,
-							},
-							inheritedObjectUUID = "a04e7887-c8d0-880a-9810-e35f41b0b7e0",
-							inheritedOverwrites = 
-							{
-								gVar = "ACR_RikuDRK2_Jumps",
-							},
-						},
-					},
-				},
-			},
-		},
-		
-		{
-			data = 
-			{
 				actions = 
 				{
 					
@@ -3363,40 +2299,50 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"6043f93a-180b-3ac4-a747-9206c64a0a05",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Grit",
-							uuid = "4c88f9ec-1aaf-1555-9207-1de0523bdaae",
-							variableTogglesType = 2,
+							gVar = "ACR_RikuDRK2_Jumps",
+							gVarValue = 2,
+							uuid = "87b15993-211c-6f08-a679-da49e0aa0846",
 							version = 2,
 						},
 					},
 				},
 				conditions = 
 				{
+				},
+				mechanicTime = 468.3,
+				name = "Jumps Off",
+				timelineIndex = 88,
+				timerOffset = -2,
+				uuid = "815acd53-1a14-1a15-9926-8963604c2505",
+				version = 2,
+			},
+			inheritedIndex = 10,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
 					
 					{
 						data = 
 						{
-							buffCheckType = 2,
-							buffID = 743,
-							category = "Self",
-							uuid = "6043f93a-180b-3ac4-a747-9206c64a0a05",
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Jumps",
+							uuid = "162053ca-db3b-9556-92df-827f84729132",
 							version = 2,
 						},
 					},
 				},
+				conditions = 
+				{
+				},
 				mechanicTime = 468.3,
-				name = "OT Stance On",
+				name = "Jumps On",
 				timelineIndex = 88,
-				timerOffset = -3,
-				uuid = "56440ba2-fb30-34e0-9fc2-2ee16d9ac86f",
+				timerOffset = 4,
+				uuid = "b993d1cd-739d-d082-80bb-13bae25d7a00",
 				version = 2,
 			},
 		},
@@ -3427,6 +2373,7 @@ local tbl =
 									true,
 								},
 							},
+							endIfUsed = true,
 							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
@@ -3461,7 +2408,6 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				eventType = 3,
 				mechanicTime = 471.4,
 				name = "Provoke OT",
@@ -3474,142 +2420,41 @@ local tbl =
 				version = 2,
 			},
 		},
+	},
+	[91] = 
+	{
 		
 		{
 			data = 
 			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 7531,
-							conditions = 
-							{
-								
-								{
-									"1510fc19-f622-b048-9ee5-ecf72ebad553",
-									true,
-								},
-								
-								{
-									"3dbeae25-9525-6d90-b06b-d47e75271d72",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
-							ignoreWeaveRules = true,
-							uuid = "6763175b-b810-6a05-aa3b-788f201bb57e",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckTimeRemain = 10,
-							channelCheckType = 3,
-							comparator = 2,
-							conditionType = 7,
-							uuid = "1510fc19-f622-b048-9ee5-ecf72ebad553",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30855,
-							conditionType = 7,
-							uuid = "3dbeae25-9525-6d90-b06b-d47e75271d72",
-							version = 2,
-						},
-					},
-				},
-				eventType = 3,
-				mechanicTime = 471.4,
-				name = "Rampart Split test",
-				timeRange = true,
-				timelineIndex = 90,
-				timerEndOffset = 18,
-				timerOffset = -20,
-				timerStartOffset = -4,
-				uuid = "f3edb5f0-5ccf-f177-942b-e9c8980ec78b",
+				name = "Feint",
+				uuid = "ad495173-c247-b42e-afea-f50e4946c850",
 				version = 2,
 			},
-		},
-		
-		{
-			data = 
+			inheritedObjectUUID = "dabb4fd0-9e12-116b-bafe-3daae5a17a2b",
+			inheritedOverwrites = 
 			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 25754,
-							conditions = 
-							{
-								
-								{
-									"bc29685f-0cb2-e420-b09a-5452bb18bc2e",
-									true,
-								},
-								
-								{
-									"d91e2b25-b40f-87f7-b371-58675c3aea7f",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
-							ignoreWeaveRules = true,
-							uuid = "2625e71d-72e2-f561-bc9c-985d8060f68f",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
 				conditions = 
 				{
 					
 					{
-						data = 
+						type = "add",
+						value = 
 						{
-							channelCheckTimeRemain = 10,
-							channelCheckType = 3,
-							comparator = 2,
-							conditionType = 7,
-							uuid = "bc29685f-0cb2-e420-b09a-5452bb18bc2e",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30855,
-							conditionType = 7,
-							uuid = "d91e2b25-b40f-87f7-b371-58675c3aea7f",
-							version = 2,
+							data = 
+							{
+								name = "Feint check",
+								uuid = "b63fd662-13f3-df0a-ab32-b565313e89bf",
+								version = 2,
+							},
+							inheritedObjectUUID = "09d704af-cca9-7c92-9309-93a9dd641dc1",
+							inheritedOverwrites = 
+							{
+								dequeueIfLuaFalse = true,
+							},
 						},
 					},
 				},
-				eventType = 3,
-				mechanicTime = 471.4,
-				name = "Oblation Split test",
-				timeRange = true,
-				timelineIndex = 90,
-				timerEndOffset = 18,
-				timerOffset = -20,
-				timerStartOffset = -4,
-				uuid = "d4f788c1-72fb-09a6-a728-0bdba830cfbb",
-				version = 2,
 			},
 		},
 		
@@ -3623,23 +2468,8 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							actionID = 7393,
-							conditions = 
-							{
-								
-								{
-									"bc29685f-0cb2-e420-b09a-5452bb18bc2e",
-									true,
-								},
-								
-								{
-									"d91e2b25-b40f-87f7-b371-58675c3aea7f",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
-							ignoreWeaveRules = true,
-							uuid = "2625e71d-72e2-f561-bc9c-985d8060f68f",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
+							uuid = "6b0a06e7-3136-220e-83d3-8f485f98454c",
 							variableTogglesType = 3,
 							version = 2,
 						},
@@ -3647,322 +2477,16 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							channelCheckTimeRemain = 10,
-							channelCheckType = 3,
-							comparator = 2,
-							conditionType = 7,
-							uuid = "bc29685f-0cb2-e420-b09a-5452bb18bc2e",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30855,
-							conditionType = 7,
-							uuid = "d91e2b25-b40f-87f7-b371-58675c3aea7f",
-							version = 2,
-						},
-					},
 				},
-				eventType = 3,
-				mechanicTime = 471.4,
-				name = "TBN Split test",
-				timeRange = true,
-				timelineIndex = 90,
-				timerEndOffset = 18,
-				timerOffset = -20,
-				timerStartOffset = -4,
-				uuid = "d9169e50-9e22-6803-82aa-0ed2c6dabf07",
+				mechanicTime = 485,
+				name = "Oblation Self",
+				timelineIndex = 91,
+				timerOffset = -6,
+				uuid = "077355a3-c3b1-0488-86df-c7fa835b4e6f",
 				version = 2,
 			},
-			inheritedIndex = 13,
+			inheritedIndex = 10,
 		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 3634,
-							conditions = 
-							{
-								
-								{
-									"bc29685f-0cb2-e420-b09a-5452bb18bc2e",
-									true,
-								},
-								
-								{
-									"d91e2b25-b40f-87f7-b371-58675c3aea7f",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
-							ignoreWeaveRules = true,
-							uuid = "2625e71d-72e2-f561-bc9c-985d8060f68f",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckTimeRemain = 10,
-							channelCheckType = 3,
-							comparator = 2,
-							conditionType = 7,
-							uuid = "bc29685f-0cb2-e420-b09a-5452bb18bc2e",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30855,
-							conditionType = 7,
-							uuid = "d91e2b25-b40f-87f7-b371-58675c3aea7f",
-							version = 2,
-						},
-					},
-				},
-				eventType = 3,
-				mechanicTime = 471.4,
-				name = "Dark Mind Split test",
-				timeRange = true,
-				timelineIndex = 90,
-				timerEndOffset = 18,
-				timerOffset = -20,
-				timerStartOffset = -4,
-				uuid = "3fec6f2f-98b0-6476-a7f4-5ae83df8dc42",
-				version = 2,
-			},
-			inheritedIndex = 14,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 7531,
-							conditions = 
-							{
-								
-								{
-									"85bbeda7-c65f-09cf-9f7a-2cbf8c0b910a",
-									true,
-								},
-								
-								{
-									"6685f326-ad46-c2ba-bf19-7731c680d61d",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
-							ignoreWeaveRules = true,
-							uuid = "38253bcc-e340-cb1a-af58-0f4fdbf24676",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckTimeRemain = 10,
-							channelCheckType = 3,
-							comparator = 2,
-							conditionType = 7,
-							uuid = "85bbeda7-c65f-09cf-9f7a-2cbf8c0b910a",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30858,
-							conditionType = 7,
-							uuid = "6685f326-ad46-c2ba-bf19-7731c680d61d",
-							version = 2,
-						},
-					},
-				},
-				eventType = 3,
-				mechanicTime = 471.4,
-				name = "Rampart Cone test",
-				timeRange = true,
-				timelineIndex = 90,
-				timerEndOffset = 18,
-				timerOffset = -20,
-				timerStartOffset = -4,
-				uuid = "3f2157c1-302e-f053-9b04-17b9bf4d63a8",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 25754,
-							conditions = 
-							{
-								
-								{
-									"a49980bf-966b-54c5-bebe-db96ce01416c",
-									true,
-								},
-								
-								{
-									"3fc1f524-662e-3952-9ed1-a8d98a80b060",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
-							ignoreWeaveRules = true,
-							uuid = "d16e40ac-61f1-2a57-af5d-02209c90b653",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckTimeRemain = 10,
-							channelCheckType = 3,
-							comparator = 2,
-							conditionType = 7,
-							uuid = "a49980bf-966b-54c5-bebe-db96ce01416c",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30858,
-							conditionType = 7,
-							uuid = "3fc1f524-662e-3952-9ed1-a8d98a80b060",
-							version = 2,
-						},
-					},
-				},
-				eventType = 3,
-				mechanicTime = 471.4,
-				name = "Oblation Cone test",
-				timeRange = true,
-				timelineIndex = 90,
-				timerEndOffset = 18,
-				timerOffset = -20,
-				timerStartOffset = -4,
-				uuid = "fbf3e92f-d029-c188-978c-03e049433f27",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 3634,
-							conditions = 
-							{
-								
-								{
-									"a49980bf-966b-54c5-bebe-db96ce01416c",
-									true,
-								},
-								
-								{
-									"3fc1f524-662e-3952-9ed1-a8d98a80b060",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
-							ignoreWeaveRules = true,
-							uuid = "d16e40ac-61f1-2a57-af5d-02209c90b653",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckTimeRemain = 10,
-							channelCheckType = 3,
-							comparator = 2,
-							conditionType = 7,
-							uuid = "a49980bf-966b-54c5-bebe-db96ce01416c",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30858,
-							conditionType = 7,
-							uuid = "3fc1f524-662e-3952-9ed1-a8d98a80b060",
-							version = 2,
-						},
-					},
-				},
-				eventType = 3,
-				mechanicTime = 471.4,
-				name = "Dark Mind Cone test",
-				timeRange = true,
-				timelineIndex = 90,
-				timerEndOffset = 18,
-				timerOffset = -20,
-				timerStartOffset = -4,
-				uuid = "1a1b1ad2-8fdc-0af7-8cfa-3edc12d38abd",
-				version = 2,
-			},
-		},
-	},
-	[91] = 
-	{
 		
 		{
 			data = 
@@ -4020,36 +2544,6 @@ local tbl =
 				uuid = "12bbf052-22d1-8ac4-9aed-63b99ee92cbe",
 				version = 2,
 			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
-							uuid = "6b0a06e7-3136-220e-83d3-8f485f98454c",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 485,
-				name = "Oblation Self",
-				timelineIndex = 91,
-				timerOffset = -6,
-				uuid = "077355a3-c3b1-0488-86df-c7fa835b4e6f",
-				version = 2,
-			},
-			inheritedIndex = 5,
 		},
 		
 		{
@@ -4188,53 +2682,6 @@ local tbl =
 				timerOffset = -4,
 				timerStartOffset = -10,
 				uuid = "54f6a2c6-0492-3a0d-a415-0b61713d1d0b",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"27e37d84-92dd-dc55-977c-7b6de365b7bf",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Grit",
-							uuid = "76f9b498-4871-088b-b9ab-1913fcec4ffb",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffID = 743,
-							category = "Self",
-							uuid = "27e37d84-92dd-dc55-977c-7b6de365b7bf",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 485,
-				name = "Turn Off Stance",
-				timelineIndex = 91,
-				timerOffset = 5,
-				uuid = "3e0dc4ef-8633-6dca-a3b5-f71bd238c0d3",
 				version = 2,
 			},
 		},
@@ -4446,56 +2893,6 @@ local tbl =
 			},
 		},
 	},
-	[110] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"9b85e54e-6ba7-d13b-a6e1-1af28579d7ad",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Grit",
-							uuid = "e90208f0-8ddd-fc52-bf56-83c2f75f808c",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffCheckType = 2,
-							buffID = 743,
-							category = "Self",
-							uuid = "9b85e54e-6ba7-d13b-a6e1-1af28579d7ad",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 572.1,
-				name = "OT Stance On",
-				timelineIndex = 110,
-				uuid = "fbf41f48-744b-cb2b-bd56-a1503b472800",
-				version = 2,
-			},
-		},
-	},
 	[114] = 
 	{
 		
@@ -4611,6 +3008,7 @@ local tbl =
 									true,
 								},
 							},
+							endIfUsed = true,
 							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
 							ignoreWeaveRules = true,
 							targetType = "Current Target",
@@ -4645,7 +3043,6 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				eventType = 3,
 				mechanicTime = 595.9,
 				name = "Provoke OT",
@@ -4658,438 +3055,9 @@ local tbl =
 				version = 2,
 			},
 		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 7531,
-							conditions = 
-							{
-								
-								{
-									"1510fc19-f622-b048-9ee5-ecf72ebad553",
-									true,
-								},
-								
-								{
-									"3dbeae25-9525-6d90-b06b-d47e75271d72",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
-							ignoreWeaveRules = true,
-							uuid = "6763175b-b810-6a05-aa3b-788f201bb57e",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckTimeRemain = 10,
-							channelCheckType = 3,
-							comparator = 2,
-							conditionType = 7,
-							uuid = "1510fc19-f622-b048-9ee5-ecf72ebad553",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30855,
-							conditionType = 7,
-							uuid = "3dbeae25-9525-6d90-b06b-d47e75271d72",
-							version = 2,
-						},
-					},
-				},
-				eventType = 3,
-				mechanicTime = 595.9,
-				name = "Rampart Split test",
-				timeRange = true,
-				timelineIndex = 116,
-				timerEndOffset = 18,
-				timerOffset = -20,
-				timerStartOffset = -4,
-				uuid = "3ecac2f3-6ebb-5939-8bfa-2badad6e408d",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 25754,
-							conditions = 
-							{
-								
-								{
-									"bc29685f-0cb2-e420-b09a-5452bb18bc2e",
-									true,
-								},
-								
-								{
-									"d91e2b25-b40f-87f7-b371-58675c3aea7f",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
-							ignoreWeaveRules = true,
-							uuid = "2625e71d-72e2-f561-bc9c-985d8060f68f",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckTimeRemain = 10,
-							channelCheckType = 3,
-							comparator = 2,
-							conditionType = 7,
-							uuid = "bc29685f-0cb2-e420-b09a-5452bb18bc2e",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30855,
-							conditionType = 7,
-							uuid = "d91e2b25-b40f-87f7-b371-58675c3aea7f",
-							version = 2,
-						},
-					},
-				},
-				eventType = 3,
-				mechanicTime = 595.9,
-				name = "Oblation Split test",
-				timeRange = true,
-				timelineIndex = 116,
-				timerEndOffset = 18,
-				timerOffset = -20,
-				timerStartOffset = -4,
-				uuid = "297a948b-299b-0b25-8f3c-aada49d1fa95",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 3634,
-							conditions = 
-							{
-								
-								{
-									"bc29685f-0cb2-e420-b09a-5452bb18bc2e",
-									true,
-								},
-								
-								{
-									"d91e2b25-b40f-87f7-b371-58675c3aea7f",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
-							ignoreWeaveRules = true,
-							uuid = "2625e71d-72e2-f561-bc9c-985d8060f68f",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckTimeRemain = 10,
-							channelCheckType = 3,
-							comparator = 2,
-							conditionType = 7,
-							uuid = "bc29685f-0cb2-e420-b09a-5452bb18bc2e",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30855,
-							conditionType = 7,
-							uuid = "d91e2b25-b40f-87f7-b371-58675c3aea7f",
-							version = 2,
-						},
-					},
-				},
-				eventType = 3,
-				mechanicTime = 595.9,
-				name = "Dark Mind Split test",
-				timeRange = true,
-				timelineIndex = 116,
-				timerEndOffset = 18,
-				timerOffset = -20,
-				timerStartOffset = -4,
-				uuid = "e2e1c7a7-7468-eb5c-9089-62d0febf10ca",
-				version = 2,
-			},
-			inheritedIndex = 13,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 7531,
-							conditions = 
-							{
-								
-								{
-									"85bbeda7-c65f-09cf-9f7a-2cbf8c0b910a",
-									true,
-								},
-								
-								{
-									"6685f326-ad46-c2ba-bf19-7731c680d61d",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
-							ignoreWeaveRules = true,
-							uuid = "38253bcc-e340-cb1a-af58-0f4fdbf24676",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckTimeRemain = 10,
-							channelCheckType = 3,
-							comparator = 2,
-							conditionType = 7,
-							uuid = "85bbeda7-c65f-09cf-9f7a-2cbf8c0b910a",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30858,
-							conditionType = 7,
-							uuid = "6685f326-ad46-c2ba-bf19-7731c680d61d",
-							version = 2,
-						},
-					},
-				},
-				eventType = 3,
-				mechanicTime = 595.9,
-				name = "Rampart Cone test",
-				timeRange = true,
-				timelineIndex = 116,
-				timerEndOffset = 18,
-				timerOffset = -20,
-				timerStartOffset = -4,
-				uuid = "f4aa3d7c-2009-5504-8de7-3b24645e51fa",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 25754,
-							conditions = 
-							{
-								
-								{
-									"a49980bf-966b-54c5-bebe-db96ce01416c",
-									true,
-								},
-								
-								{
-									"3fc1f524-662e-3952-9ed1-a8d98a80b060",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
-							ignoreWeaveRules = true,
-							uuid = "d16e40ac-61f1-2a57-af5d-02209c90b653",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckTimeRemain = 10,
-							channelCheckType = 3,
-							comparator = 2,
-							conditionType = 7,
-							uuid = "a49980bf-966b-54c5-bebe-db96ce01416c",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30858,
-							conditionType = 7,
-							uuid = "3fc1f524-662e-3952-9ed1-a8d98a80b060",
-							version = 2,
-						},
-					},
-				},
-				eventType = 3,
-				mechanicTime = 595.9,
-				name = "Oblation Cone test",
-				timeRange = true,
-				timelineIndex = 116,
-				timerEndOffset = 18,
-				timerOffset = -20,
-				timerStartOffset = -4,
-				uuid = "847e90ba-24f8-4cc2-94bc-e49a3e369a49",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 3634,
-							conditions = 
-							{
-								
-								{
-									"a49980bf-966b-54c5-bebe-db96ce01416c",
-									true,
-								},
-								
-								{
-									"3fc1f524-662e-3952-9ed1-a8d98a80b060",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Tankbar_Camouflage",
-							ignoreWeaveRules = true,
-							uuid = "d16e40ac-61f1-2a57-af5d-02209c90b653",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							channelCheckTimeRemain = 10,
-							channelCheckType = 3,
-							comparator = 2,
-							conditionType = 7,
-							uuid = "a49980bf-966b-54c5-bebe-db96ce01416c",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							channelCheckSpellID = 30858,
-							conditionType = 7,
-							uuid = "3fc1f524-662e-3952-9ed1-a8d98a80b060",
-							version = 2,
-						},
-					},
-				},
-				eventType = 3,
-				mechanicTime = 595.9,
-				name = "Dark Mind Cone test",
-				timeRange = true,
-				timelineIndex = 116,
-				timerEndOffset = 18,
-				timerOffset = -20,
-				timerStartOffset = -4,
-				uuid = "a86f65c9-9be8-b93e-afef-53793769d895",
-				version = 2,
-			},
-		},
 	},
 	[117] = 
 	{
-		
-		{
-			data = 
-			{
-				name = "Feint",
-				uuid = "221a2288-5e54-8aaa-9bfa-4964c44c58e2",
-				version = 2,
-			},
-			inheritedObjectUUID = "1145c1a3-7f2d-c9d4-8399-9ecb6789577e",
-			inheritedOverwrites = 
-			{
-				enabled = false,
-			},
-		},
 		
 		{
 			data = 
@@ -5245,6 +3213,7 @@ local tbl =
 									true,
 								},
 							},
+							endIfUsed = true,
 							gVar = "ACR_RikuDRK2_Hotbar_Provoke",
 							uuid = "6a33290c-06de-7a6c-8b8d-5cba6e1c827e",
 							variableTogglesType = 2,
@@ -5288,53 +3257,7 @@ local tbl =
 				uuid = "c98ac677-3f26-054f-9d18-ff57f9971724",
 				version = 2,
 			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"d4b3d7f6-b99a-a79b-8b5f-d68d5c570a39",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_Grit",
-							uuid = "7ed866d9-97d1-6adb-9bb9-c2f16176ebad",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffID = 743,
-							category = "Self",
-							uuid = "d4b3d7f6-b99a-a79b-8b5f-d68d5c570a39",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 608.9,
-				name = "Turn Off Stance",
-				timelineIndex = 117,
-				timerOffset = 5,
-				uuid = "4035e1a4-cc83-010e-acbd-ddefd4361df8",
-				version = 2,
-			},
+			inheritedIndex = 6,
 		},
 	},
 	[118] = 
