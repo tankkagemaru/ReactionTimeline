@@ -421,6 +421,442 @@ local tbl =
 			},
 		},
 	},
+	[39] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 7533,
+							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
+							ignoreWeaveRules = true,
+							uuid = "2ec87774-ee1c-dfa1-b364-0b5fcbd4a554",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 208.3,
+				name = "Provoke",
+				timelineIndex = 39,
+				timerOffset = -2,
+				uuid = "abc73000-f742-6756-b5b3-97ffee63ce83",
+				version = 2,
+			},
+		},
+	},
+	[40] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 18,
+							conditions = 
+							{
+								
+								{
+									"51615ddb-1495-73f5-8882-8a5445bbb72e",
+									false,
+								},
+								
+								{
+									"12c9a6cc-327a-a14d-9170-fbe457321702",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
+							uuid = "1e6710fd-e4d1-c55e-be82-c0995cda6e17",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 9,
+							partyTargetType = "Event Entity",
+							uuid = "51615ddb-1495-73f5-8882-8a5445bbb72e",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventArgOptionType = 3,
+							eventArgType = 2,
+							spellIDList = 
+							{
+								7533,
+							},
+							uuid = "12c9a6cc-327a-a14d-9170-fbe457321702",
+							version = 2,
+						},
+					},
+				},
+				eventType = 2,
+				mechanicTime = 211.4,
+				name = "Shirk to OT Swap",
+				timeRange = true,
+				timelineIndex = 40,
+				timerEndOffset = 10,
+				timerStartOffset = -10,
+				uuid = "56562732-88a1-7a3c-a0ca-8a04f0341e7c",
+				version = 2,
+			},
+		},
+	},
+	[56] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 7533,
+							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
+							ignoreWeaveRules = true,
+							uuid = "2ec87774-ee1c-dfa1-b364-0b5fcbd4a554",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 308.3,
+				name = "Provoke",
+				timelineIndex = 56,
+				timerOffset = -2,
+				uuid = "5ac90a0f-0a92-11ee-8bc2-6f26acf563a1",
+				version = 2,
+			},
+		},
+	},
+	[57] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 18,
+							conditions = 
+							{
+								
+								{
+									"51615ddb-1495-73f5-8882-8a5445bbb72e",
+									false,
+								},
+								
+								{
+									"12c9a6cc-327a-a14d-9170-fbe457321702",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
+							uuid = "1e6710fd-e4d1-c55e-be82-c0995cda6e17",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 9,
+							partyTargetType = "Event Entity",
+							uuid = "51615ddb-1495-73f5-8882-8a5445bbb72e",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventArgOptionType = 3,
+							eventArgType = 2,
+							spellIDList = 
+							{
+								7533,
+							},
+							uuid = "12c9a6cc-327a-a14d-9170-fbe457321702",
+							version = 2,
+						},
+					},
+				},
+				eventType = 2,
+				mechanicTime = 311.4,
+				name = "Shirk to OT Swap",
+				timeRange = true,
+				timelineIndex = 57,
+				timerEndOffset = 10,
+				timerStartOffset = -10,
+				uuid = "fdab18c9-0d12-3c3e-89f9-36beb543e1d5",
+				version = 2,
+			},
+		},
+	},
+	[80] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 7533,
+							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
+							ignoreWeaveRules = true,
+							uuid = "2ec87774-ee1c-dfa1-b364-0b5fcbd4a554",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 445.1,
+				name = "Provoke",
+				timelineIndex = 80,
+				timerOffset = -2,
+				uuid = "457e3ed3-c0da-9010-a12d-cce00ffecb9e",
+				version = 2,
+			},
+		},
+	},
+	[81] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 18,
+							conditions = 
+							{
+								
+								{
+									"51615ddb-1495-73f5-8882-8a5445bbb72e",
+									false,
+								},
+								
+								{
+									"12c9a6cc-327a-a14d-9170-fbe457321702",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
+							uuid = "1e6710fd-e4d1-c55e-be82-c0995cda6e17",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 9,
+							partyTargetType = "Event Entity",
+							uuid = "51615ddb-1495-73f5-8882-8a5445bbb72e",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventArgOptionType = 3,
+							eventArgType = 2,
+							spellIDList = 
+							{
+								7533,
+							},
+							uuid = "12c9a6cc-327a-a14d-9170-fbe457321702",
+							version = 2,
+						},
+					},
+				},
+				eventType = 2,
+				mechanicTime = 448.2,
+				name = "Shirk to OT Swap",
+				timeRange = true,
+				timelineIndex = 81,
+				timerEndOffset = 10,
+				timerStartOffset = -10,
+				uuid = "9b07e0c1-0f39-630a-9b55-4377ec6d82fd",
+				version = 2,
+			},
+		},
+	},
+	[86] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 7533,
+							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
+							ignoreWeaveRules = true,
+							uuid = "2ec87774-ee1c-dfa1-b364-0b5fcbd4a554",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 508.3,
+				name = "Provoke",
+				timelineIndex = 86,
+				timerOffset = -2,
+				uuid = "2a2d29a4-9b88-e033-9f1b-644d91acd064",
+				version = 2,
+			},
+		},
+	},
+	[87] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 18,
+							conditions = 
+							{
+								
+								{
+									"51615ddb-1495-73f5-8882-8a5445bbb72e",
+									false,
+								},
+								
+								{
+									"12c9a6cc-327a-a14d-9170-fbe457321702",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
+							uuid = "1e6710fd-e4d1-c55e-be82-c0995cda6e17",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 9,
+							partyTargetType = "Event Entity",
+							uuid = "51615ddb-1495-73f5-8882-8a5445bbb72e",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventArgOptionType = 3,
+							eventArgType = 2,
+							spellIDList = 
+							{
+								7533,
+							},
+							uuid = "12c9a6cc-327a-a14d-9170-fbe457321702",
+							version = 2,
+						},
+					},
+				},
+				eventType = 2,
+				mechanicTime = 511.4,
+				name = "Shirk to OT Swap",
+				timeRange = true,
+				timelineIndex = 87,
+				timerEndOffset = 10,
+				timerStartOffset = -10,
+				uuid = "2c909ec0-6bc6-23f8-96ad-f91bf89a8fec",
+				version = 2,
+			},
+		},
+	},
 	[94] = 
 	{
 		
@@ -616,6 +1052,115 @@ local tbl =
 				timelineIndex = 111,
 				timerStartOffset = -10,
 				uuid = "0331e62a-4bc2-104b-8f10-9521872afb48",
+				version = 2,
+			},
+		},
+	},
+	[114] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 7533,
+							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
+							ignoreWeaveRules = true,
+							uuid = "2ec87774-ee1c-dfa1-b364-0b5fcbd4a554",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 708.3,
+				name = "Provoke",
+				timelineIndex = 114,
+				timerOffset = -2,
+				uuid = "7cefc4c3-0445-4091-a49e-80e90597fc64",
+				version = 2,
+			},
+		},
+	},
+	[115] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 18,
+							conditions = 
+							{
+								
+								{
+									"51615ddb-1495-73f5-8882-8a5445bbb72e",
+									false,
+								},
+								
+								{
+									"12c9a6cc-327a-a14d-9170-fbe457321702",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
+							uuid = "1e6710fd-e4d1-c55e-be82-c0995cda6e17",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 9,
+							partyTargetType = "Event Entity",
+							uuid = "51615ddb-1495-73f5-8882-8a5445bbb72e",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventArgOptionType = 3,
+							eventArgType = 2,
+							spellIDList = 
+							{
+								7533,
+							},
+							uuid = "12c9a6cc-327a-a14d-9170-fbe457321702",
+							version = 2,
+						},
+					},
+				},
+				eventType = 2,
+				mechanicTime = 711.4,
+				name = "Shirk to OT Swap",
+				timeRange = true,
+				timelineIndex = 115,
+				timerEndOffset = 10,
+				timerStartOffset = -10,
+				uuid = "43019972-b45a-50fe-991c-5aef530daff1",
 				version = 2,
 			},
 		},
@@ -955,6 +1500,333 @@ local tbl =
 			},
 		},
 	},
+	[164] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 7533,
+							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
+							ignoreWeaveRules = true,
+							uuid = "2ec87774-ee1c-dfa1-b364-0b5fcbd4a554",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1106.5,
+				name = "Provoke",
+				timelineIndex = 164,
+				timerOffset = -2,
+				uuid = "ef00bfc0-d85f-485d-81f4-6fa1af357a4a",
+				version = 2,
+			},
+		},
+	},
+	[165] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 18,
+							conditions = 
+							{
+								
+								{
+									"51615ddb-1495-73f5-8882-8a5445bbb72e",
+									false,
+								},
+								
+								{
+									"12c9a6cc-327a-a14d-9170-fbe457321702",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
+							uuid = "1e6710fd-e4d1-c55e-be82-c0995cda6e17",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 9,
+							partyTargetType = "Event Entity",
+							uuid = "51615ddb-1495-73f5-8882-8a5445bbb72e",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventArgOptionType = 3,
+							eventArgType = 2,
+							spellIDList = 
+							{
+								7533,
+							},
+							uuid = "12c9a6cc-327a-a14d-9170-fbe457321702",
+							version = 2,
+						},
+					},
+				},
+				eventType = 2,
+				mechanicTime = 1109.6,
+				name = "Shirk to OT Swap",
+				timeRange = true,
+				timelineIndex = 165,
+				timerEndOffset = 10,
+				timerStartOffset = -10,
+				uuid = "e1a3c16d-10c2-a64b-a986-3eb77c772b02",
+				version = 2,
+			},
+		},
+	},
+	[170] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 7533,
+							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
+							ignoreWeaveRules = true,
+							uuid = "2ec87774-ee1c-dfa1-b364-0b5fcbd4a554",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1208.3,
+				name = "Provoke",
+				timelineIndex = 170,
+				timerOffset = -2,
+				uuid = "785f3c89-c81e-f0a4-a22f-34730b7fee20",
+				version = 2,
+			},
+		},
+	},
+	[171] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 18,
+							conditions = 
+							{
+								
+								{
+									"51615ddb-1495-73f5-8882-8a5445bbb72e",
+									false,
+								},
+								
+								{
+									"12c9a6cc-327a-a14d-9170-fbe457321702",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
+							uuid = "1e6710fd-e4d1-c55e-be82-c0995cda6e17",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 9,
+							partyTargetType = "Event Entity",
+							uuid = "51615ddb-1495-73f5-8882-8a5445bbb72e",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventArgOptionType = 3,
+							eventArgType = 2,
+							spellIDList = 
+							{
+								7533,
+							},
+							uuid = "12c9a6cc-327a-a14d-9170-fbe457321702",
+							version = 2,
+						},
+					},
+				},
+				eventType = 2,
+				mechanicTime = 1211.4,
+				name = "Shirk to OT Swap",
+				timeRange = true,
+				timelineIndex = 171,
+				timerEndOffset = 10,
+				timerStartOffset = -10,
+				uuid = "69980d37-8446-cb1f-8ef3-9f503e5b71ba",
+				version = 2,
+			},
+		},
+	},
+	[193] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 7533,
+							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
+							ignoreWeaveRules = true,
+							uuid = "2ec87774-ee1c-dfa1-b364-0b5fcbd4a554",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1408.3,
+				name = "Provoke",
+				timelineIndex = 193,
+				timerOffset = -2,
+				uuid = "fdc8b547-d7a9-f367-abc9-a605408a135c",
+				version = 2,
+			},
+		},
+	},
+	[194] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 18,
+							conditions = 
+							{
+								
+								{
+									"51615ddb-1495-73f5-8882-8a5445bbb72e",
+									false,
+								},
+								
+								{
+									"12c9a6cc-327a-a14d-9170-fbe457321702",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
+							uuid = "1e6710fd-e4d1-c55e-be82-c0995cda6e17",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 9,
+							partyTargetType = "Event Entity",
+							uuid = "51615ddb-1495-73f5-8882-8a5445bbb72e",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventArgOptionType = 3,
+							eventArgType = 2,
+							spellIDList = 
+							{
+								7533,
+							},
+							uuid = "12c9a6cc-327a-a14d-9170-fbe457321702",
+							version = 2,
+						},
+					},
+				},
+				eventType = 2,
+				mechanicTime = 1411.4,
+				name = "Shirk to OT Swap",
+				timeRange = true,
+				timelineIndex = 194,
+				timerEndOffset = 10,
+				timerStartOffset = -10,
+				uuid = "147b50af-4802-234c-a336-4249168659b7",
+				version = 2,
+			},
+		},
+	},
 	[223] = 
 	{
 		
@@ -1130,6 +2002,40 @@ local tbl =
 				timelineIndex = 237,
 				timerStartOffset = -10,
 				uuid = "d4bda562-a4f9-84d8-9b2c-fef7bdbe2e6b",
+				version = 2,
+			},
+		},
+	},
+	[242] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 7533,
+							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
+							ignoreWeaveRules = true,
+							uuid = "2ec87774-ee1c-dfa1-b364-0b5fcbd4a554",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1808.3,
+				name = "Provoke",
+				timelineIndex = 242,
+				timerOffset = -2,
+				uuid = "f9e336d4-4df8-31b0-b2c2-6c29d2ce1579",
 				version = 2,
 			},
 		},
@@ -1329,6 +2235,115 @@ local tbl =
 				timerOffset = -10,
 				timerStartOffset = -4,
 				uuid = "0b0a3bba-80b7-6942-a1e3-0aa94e2224cf",
+				version = 2,
+			},
+		},
+	},
+	[258] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 7533,
+							gVar = "ACR_RikuGNB2_Hotbar_Provoke",
+							ignoreWeaveRules = true,
+							uuid = "2ec87774-ee1c-dfa1-b364-0b5fcbd4a554",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1908.3,
+				name = "Provoke",
+				timelineIndex = 258,
+				timerOffset = -2,
+				uuid = "1884f854-c1a0-9cc0-916e-63d169e580f5",
+				version = 2,
+			},
+		},
+	},
+	[259] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 18,
+							conditions = 
+							{
+								
+								{
+									"51615ddb-1495-73f5-8882-8a5445bbb72e",
+									false,
+								},
+								
+								{
+									"12c9a6cc-327a-a14d-9170-fbe457321702",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
+							uuid = "1e6710fd-e4d1-c55e-be82-c0995cda6e17",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 9,
+							partyTargetType = "Event Entity",
+							uuid = "51615ddb-1495-73f5-8882-8a5445bbb72e",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventArgOptionType = 3,
+							eventArgType = 2,
+							spellIDList = 
+							{
+								7533,
+							},
+							uuid = "12c9a6cc-327a-a14d-9170-fbe457321702",
+							version = 2,
+						},
+					},
+				},
+				eventType = 2,
+				mechanicTime = 1911.4,
+				name = "Shirk to OT Swap",
+				timeRange = true,
+				timelineIndex = 259,
+				timerEndOffset = 10,
+				timerStartOffset = -10,
+				uuid = "99aa61d3-bbd4-0592-8164-797dfdf06522",
 				version = 2,
 			},
 		},
