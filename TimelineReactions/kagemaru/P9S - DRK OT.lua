@@ -63,15 +63,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"04d8fd2c-c773-ae40-ab37-91b2573051ca",
-									true,
-								},
-							},
-							endIfUsed = true,
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							uuid = "85d79229-6f9d-2587-a4b7-9ea11f5d85ce",
 							variableTogglesType = 3,
@@ -81,23 +72,13 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							buffCheckType = 2,
-							buffID = 1193,
-							uuid = "04d8fd2c-c773-ae40-ab37-91b2573051ca",
-							version = 2,
-						},
-					},
 				},
 				mechanicTime = 32,
 				name = "Reprisal",
 				timeRange = true,
 				timelineIndex = 6,
 				timerStartOffset = -10,
-				uuid = "56049333-664e-d109-863c-788f68965d8f",
+				uuid = "3a48f1e4-c21c-39ae-aa17-1f81e0ed9065",
 				version = 2,
 			},
 		},
@@ -408,15 +389,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"04d8fd2c-c773-ae40-ab37-91b2573051ca",
-									true,
-								},
-							},
-							endIfUsed = true,
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							uuid = "85d79229-6f9d-2587-a4b7-9ea11f5d85ce",
 							variableTogglesType = 3,
@@ -426,16 +398,6 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							buffCheckType = 2,
-							buffID = 1193,
-							uuid = "04d8fd2c-c773-ae40-ab37-91b2573051ca",
-							version = 2,
-						},
-					},
 				},
 				mechanicTime = 120.9,
 				name = "Reprisal",
@@ -962,17 +924,50 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
+							uuid = "85d79229-6f9d-2587-a4b7-9ea11f5d85ce",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 214.8,
+				name = "Reprisal",
+				timeRange = true,
+				timelineIndex = 41,
+				timerStartOffset = -10,
+				uuid = "af4be143-0baa-3e85-93aa-67ba3e315ea3",
+				version = 2,
+			},
+		},
+	},
+	[63] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
 							conditions = 
 							{
 								
 								{
-									"04d8fd2c-c773-ae40-ab37-91b2573051ca",
+									"7266a290-c259-9ae7-8c3b-87297d23dafc",
 									true,
 								},
 							},
-							endIfUsed = true,
-							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
-							uuid = "85d79229-6f9d-2587-a4b7-9ea11f5d85ce",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightMouse",
+							uuid = "ac3a6ae3-d114-c1b4-8395-8cf0ec0b6ec9",
+							variableIsHover = true,
 							variableTogglesType = 3,
 							version = 2,
 						},
@@ -984,19 +979,19 @@ local tbl =
 					{
 						data = 
 						{
-							buffCheckType = 2,
-							buffID = 1193,
-							uuid = "04d8fd2c-c773-ae40-ab37-91b2573051ca",
+							category = "Party",
+							conditionType = 4,
+							inRangeValue = 30,
+							partyTargetSubType = "Furthest",
+							uuid = "7266a290-c259-9ae7-8c3b-87297d23dafc",
 							version = 2,
 						},
 					},
 				},
-				mechanicTime = 214.8,
-				name = "Reprisal",
-				timeRange = true,
-				timelineIndex = 41,
-				timerStartOffset = -10,
-				uuid = "018cab92-f1be-4cff-ae95-aec2d7330f50",
+				mechanicTime = 255.8,
+				name = "TBN Furthest",
+				timelineIndex = 63,
+				uuid = "ecd1e2c4-b9f9-3dcd-bf0d-e537d60580ed",
 				version = 2,
 			},
 		},
@@ -1078,15 +1073,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"04d8fd2c-c773-ae40-ab37-91b2573051ca",
-									true,
-								},
-							},
-							endIfUsed = true,
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							uuid = "85d79229-6f9d-2587-a4b7-9ea11f5d85ce",
 							variableTogglesType = 3,
@@ -1096,23 +1082,13 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							buffCheckType = 2,
-							buffID = 1193,
-							uuid = "04d8fd2c-c773-ae40-ab37-91b2573051ca",
-							version = 2,
-						},
-					},
 				},
 				mechanicTime = 297,
 				name = "Reprisal",
 				timeRange = true,
 				timelineIndex = 75,
 				timerStartOffset = -10,
-				uuid = "fe3d5793-afd0-cb2d-9f22-efa60ec796d9",
+				uuid = "76d00e47-95ad-03d0-a1d1-38ccd3017a81",
 				version = 2,
 			},
 		},
@@ -1213,15 +1189,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"04d8fd2c-c773-ae40-ab37-91b2573051ca",
-									true,
-								},
-							},
-							endIfUsed = true,
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							uuid = "85d79229-6f9d-2587-a4b7-9ea11f5d85ce",
 							variableTogglesType = 3,
@@ -1231,23 +1198,13 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							buffCheckType = 2,
-							buffID = 1193,
-							uuid = "04d8fd2c-c773-ae40-ab37-91b2573051ca",
-							version = 2,
-						},
-					},
 				},
 				mechanicTime = 380.8,
 				name = "Reprisal",
 				timeRange = true,
 				timelineIndex = 91,
 				timerStartOffset = -10,
-				uuid = "8de4e3c3-bc6f-9ceb-a265-f983b0c56af0",
+				uuid = "4a05ca44-f4b9-eeff-a9dc-c6ca6a6206fc",
 				version = 2,
 			},
 		},
@@ -1408,36 +1365,6 @@ local tbl =
 				timelineIndex = 94,
 				timerOffset = -6,
 				uuid = "d687a8ac-1a42-ea6c-8395-40b4c5f1b81f",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
-							uuid = "87e6a407-614f-4309-acba-ba42c06d2c90",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 396.4,
-				name = "Shadow Wall",
-				timeRange = true,
-				timelineIndex = 94,
-				timerStartOffset = -15,
-				uuid = "bf22eaf4-fb89-53d7-890c-cd314863b3b8",
 				version = 2,
 			},
 		},
@@ -1704,15 +1631,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"04d8fd2c-c773-ae40-ab37-91b2573051ca",
-									true,
-								},
-							},
-							endIfUsed = true,
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							uuid = "85d79229-6f9d-2587-a4b7-9ea11f5d85ce",
 							variableTogglesType = 3,
@@ -1722,23 +1640,13 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							buffCheckType = 2,
-							buffID = 1193,
-							uuid = "04d8fd2c-c773-ae40-ab37-91b2573051ca",
-							version = 2,
-						},
-					},
 				},
 				mechanicTime = 492.7,
 				name = "Reprisal",
 				timeRange = true,
 				timelineIndex = 121,
 				timerStartOffset = -10,
-				uuid = "86a80f90-0ac3-09c3-8d8a-3a82f84218d4",
+				uuid = "6e0e02a1-8345-f2e6-a5ea-64cd7ffe589b",
 				version = 2,
 			},
 		},
@@ -2099,15 +2007,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"04d8fd2c-c773-ae40-ab37-91b2573051ca",
-									true,
-								},
-							},
-							endIfUsed = true,
 							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
 							uuid = "85d79229-6f9d-2587-a4b7-9ea11f5d85ce",
 							variableTogglesType = 3,
@@ -2117,23 +2016,13 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							buffCheckType = 2,
-							buffID = 1193,
-							uuid = "04d8fd2c-c773-ae40-ab37-91b2573051ca",
-							version = 2,
-						},
-					},
 				},
 				mechanicTime = 585.1,
 				name = "Reprisal",
 				timeRange = true,
 				timelineIndex = 142,
 				timerStartOffset = -10,
-				uuid = "977c8b98-f9ed-0f80-a447-ef0dc76b49ef",
+				uuid = "d9f21351-805c-ac47-a6ff-73595529c11a",
 				version = 2,
 			},
 		},
