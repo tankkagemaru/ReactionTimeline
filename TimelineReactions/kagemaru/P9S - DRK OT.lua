@@ -956,16 +956,10 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"7266a290-c259-9ae7-8c3b-87297d23dafc",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightMouse",
+							actionID = 25754,
+							gVar = "ACR_RikuDRK2_Tankbar_Oblation",
+							targetSubType = "Furthest",
+							targetType = "Party",
 							uuid = "ac3a6ae3-d114-c1b4-8395-8cf0ec0b6ec9",
 							variableIsHover = true,
 							variableTogglesType = 3,
@@ -975,18 +969,6 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Party",
-							conditionType = 4,
-							inRangeValue = 30,
-							partyTargetSubType = "Furthest",
-							uuid = "7266a290-c259-9ae7-8c3b-87297d23dafc",
-							version = 2,
-						},
-					},
 				},
 				mechanicTime = 255.8,
 				name = "TBN Furthest",
