@@ -1394,35 +1394,6 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Tankbar_HeartOfLight",
-							uuid = "06859353-eeb4-72dc-9b76-1fcda64815ba",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 454.2,
-				name = "HoL",
-				timelineIndex = 108,
-				timerOffset = -15,
-				uuid = "24b668d7-fb88-c749-a3a5-94062c2eb265",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
 							actionID = 25758,
 							targetSubType = "Lowest HP",
 							targetType = "Party",
