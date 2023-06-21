@@ -161,6 +161,23 @@ local tbl =
 			},
 		},
 	},
+	[7] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Oblation Tether Target",
+				uuid = "e51f7c29-c3d3-3b8f-bfeb-4d79b6589900",
+				version = 2,
+			},
+			inheritedObjectUUID = "f2260fb0-2511-65c1-9b29-85793ccadc8a",
+			inheritedOverwrites = 
+			{
+				enabled = true,
+			},
+		},
+	},
 	[8] = 
 	{
 		
@@ -472,6 +489,81 @@ local tbl =
 			},
 		},
 	},
+	[28] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 18,
+							conditions = 
+							{
+								
+								{
+									"4b5ca796-2891-ad4f-885f-354885305a91",
+									false,
+								},
+								
+								{
+									"645ab106-9a43-fe63-9e5f-3ab5d9ad2be6",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
+							uuid = "3ecc145b-0877-356b-bcf4-8cd43deb3a37",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 9,
+							partyTargetType = "Event Entity",
+							uuid = "4b5ca796-2891-ad4f-885f-354885305a91",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventArgOptionType = 3,
+							eventArgType = 2,
+							spellIDList = 
+							{
+								7533,
+							},
+							uuid = "645ab106-9a43-fe63-9e5f-3ab5d9ad2be6",
+							version = 2,
+						},
+					},
+				},
+				eventType = 2,
+				mechanicTime = 168.9,
+				name = "Shirk",
+				timeRange = true,
+				timelineIndex = 28,
+				timerEndOffset = 20,
+				timerStartOffset = -10,
+				uuid = "bbf182f5-ceae-b9a5-aacd-91a3e3b7631c",
+				version = 2,
+			},
+		},
+	},
 	[34] = 
 	{
 		
@@ -622,7 +714,7 @@ local tbl =
 				mechanicTime = 258.4,
 				name = "Rampart",
 				timelineIndex = 41,
-				timerOffset = -16,
+				timerOffset = -15,
 				uuid = "867213c5-7c05-0a69-83c3-def56f3812aa",
 				version = 2,
 			},
@@ -812,6 +904,64 @@ local tbl =
 			},
 		},
 	},
+	[65] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"810b08e8-229c-56c0-a63e-fae4b920c82c",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
+							uuid = "cd6a0e73-17f9-1805-8466-36ea89a723dc",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Party",
+							comparator = 2,
+							conditionType = 4,
+							inRangeValue = 30,
+							minTargetPercent = true,
+							partyTargetNumber = 100,
+							partyTargetSubType = "Number",
+							uuid = "810b08e8-229c-56c0-a63e-fae4b920c82c",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 375.3,
+				name = "Dark Missionary Party Range Check",
+				timeRange = true,
+				timelineIndex = 65,
+				timerEndOffset = -4,
+				timerOffset = -15,
+				timerStartOffset = -10,
+				uuid = "5f3133d2-ae6f-f8c3-81c6-703650da8e64",
+				version = 2,
+			},
+		},
+	},
 	[66] = 
 	{
 		
@@ -838,7 +988,7 @@ local tbl =
 				mechanicTime = 384.6,
 				name = "Rampart",
 				timelineIndex = 66,
-				timerOffset = -16,
+				timerOffset = -15,
 				uuid = "2abc4305-0212-e0fc-819a-b1324a0c3e76",
 				version = 2,
 			},
@@ -965,6 +1115,38 @@ local tbl =
 			},
 		},
 	},
+	[76] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							uuid = "16788587-9f8b-cb2d-8551-dc30e2bc0a49",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 438.8,
+				name = "TBN Self",
+				timelineIndex = 76,
+				timerOffset = -6,
+				uuid = "52dc91de-f8ab-dacd-8aea-7c585115810e",
+				version = 2,
+			},
+		},
+	},
 	[78] = 
 	{
 		
@@ -993,7 +1175,7 @@ local tbl =
 				timeRange = true,
 				timelineIndex = 78,
 				timerOffset = -5,
-				timerStartOffset = -5,
+				timerStartOffset = -6,
 				uuid = "0110a124-06a7-e8c6-b489-cff8307ca2fd",
 				version = 2,
 			},
@@ -1005,55 +1187,14 @@ local tbl =
 		{
 			data = 
 			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"810b08e8-229c-56c0-a63e-fae4b920c82c",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
-							uuid = "cd6a0e73-17f9-1805-8466-36ea89a723dc",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							category = "Party",
-							comparator = 2,
-							conditionType = 4,
-							inRangeValue = 30,
-							minTargetPercent = true,
-							partyTargetNumber = 100,
-							partyTargetSubType = "Number",
-							uuid = "810b08e8-229c-56c0-a63e-fae4b920c82c",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 454,
-				name = "Dark Missionary Party Range Check",
-				timeRange = true,
-				timelineIndex = 84,
-				timerEndOffset = -4,
-				timerOffset = -15,
-				timerStartOffset = -10,
-				uuid = "2f556911-f555-f413-8588-d601569f6e13",
+				name = "Nature's Minne (15s) (120s)",
+				uuid = "2599ad66-e2e5-6c31-9027-6899c098ce41",
 				version = 2,
+			},
+			inheritedIndex = 23,
+			inheritedObjectUUID = "158acc87-0cc2-720c-83d4-7848253a056a",
+			inheritedOverwrites = 
+			{
 			},
 		},
 		
@@ -1084,6 +1225,35 @@ local tbl =
 				timelineIndex = 84,
 				timerStartOffset = -10,
 				uuid = "fa58acf8-babf-1ed7-a344-494c6d7e45b7",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							uuid = "16788587-9f8b-cb2d-8551-dc30e2bc0a49",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 454,
+				name = "TBN Self",
+				timelineIndex = 84,
+				timerOffset = -6,
+				uuid = "5328f5c3-dd2f-f85f-8482-f26412ba5fe1",
 				version = 2,
 			},
 		},
@@ -1172,7 +1342,7 @@ local tbl =
 				mechanicTime = 490.6,
 				name = "Rampart",
 				timelineIndex = 88,
-				timerOffset = -16,
+				timerOffset = -15,
 				uuid = "7cc7a0cf-6447-be89-94f9-645be1e947e5",
 				version = 2,
 			},
@@ -1394,7 +1564,7 @@ local tbl =
 			},
 		},
 	},
-	[114] = 
+	[105] = 
 	{
 		
 		{
@@ -1440,17 +1610,177 @@ local tbl =
 						},
 					},
 				},
-				mechanicTime = 635.8,
+				mechanicTime = 600.8,
 				name = "Dark Missionary Party Range Check",
 				timeRange = true,
-				timelineIndex = 114,
+				timelineIndex = 105,
 				timerEndOffset = -4,
 				timerOffset = -15,
-				timerStartOffset = -10,
-				uuid = "c8efd9ea-f792-002a-a894-a88dd601d845",
+				timerStartOffset = -15,
+				uuid = "f274062b-8cc8-ead2-af6f-5fe2cfe2fb01",
 				version = 2,
 			},
 		},
+	},
+	[106] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							endIfUsed = true,
+							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
+							uuid = "85d79229-6f9d-2587-a4b7-9ea11f5d85ce",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 623.5,
+				name = "Reprisal",
+				timeRange = true,
+				timelineIndex = 106,
+				timerEndOffset = 5,
+				uuid = "b3e3b338-beca-1c44-8b46-0e11f683269b",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Rampart",
+							uuid = "b1515580-9510-7fc0-98d5-c405fb3acda9",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 623.5,
+				name = "Rampart",
+				timeRange = true,
+				timelineIndex = 106,
+				timerEndOffset = 10,
+				timerOffset = -16,
+				uuid = "411cfc75-c701-f2e5-9844-b9cc521346e6",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
+							uuid = "6b0a06e7-3136-220e-83d3-8f485f98454c",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 623.5,
+				name = "Oblation Self",
+				timeRange = true,
+				timelineIndex = 106,
+				timerEndOffset = 6,
+				timerOffset = -9,
+				uuid = "a9821b4c-6240-7b80-ab99-310bd4577a5d",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							uuid = "16788587-9f8b-cb2d-8551-dc30e2bc0a49",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 623.5,
+				name = "TBN Self",
+				randomOffset = 8,
+				timelineIndex = 106,
+				uuid = "93545e96-1ec2-2cce-8c3f-9d393dc0b734",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "0770f48a-8d17-2d4f-81f9-5d4630de1e6a",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 623.5,
+				name = "Dark Mind",
+				timeRange = true,
+				timelineIndex = 106,
+				timerEndOffset = 2,
+				timerOffset = -10,
+				uuid = "b298cad6-c1a9-1fe8-a859-def293b4e8ce",
+				version = 2,
+			},
+			inheritedIndex = 15,
+		},
+	},
+	[114] = 
+	{
 		
 		{
 			data = 

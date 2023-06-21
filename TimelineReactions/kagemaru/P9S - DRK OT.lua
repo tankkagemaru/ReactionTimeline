@@ -519,6 +519,73 @@ local tbl =
 			},
 		},
 	},
+	[26] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Disable Jumps",
+				uuid = "3ecb8605-9966-1182-84f6-b9ed9b642a53",
+				version = 2,
+			},
+			inheritedObjectUUID = "146fec8e-1fb6-70dc-badb-b5be2953d71b",
+			inheritedOverwrites = 
+			{
+				actions = 
+				{
+					
+					{
+						type = "add",
+						value = 
+						{
+							data = 
+							{
+								name = "",
+								uuid = "a378d71f-9df1-01e0-828e-f1d75ab71b6a",
+								version = 2,
+							},
+							inheritedObjectUUID = "5befa0a5-2cd3-21da-98e4-a806a63e5444",
+							inheritedOverwrites = 
+							{
+								gVar = "ACR_RikuDRK2_Jumps",
+							},
+						},
+					},
+				},
+				enabled = true,
+				name = "Disable Jumps",
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Jumps",
+							gVarValue = 2,
+							uuid = "a378d71f-9df1-01e0-828e-f1d75ab71b6a",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 146.4,
+				name = "[Multi] Disable Jumps",
+				timelineIndex = 26,
+				uuid = "b41e2202-a87c-ae01-aaa4-472fb560ea60",
+				version = 2,
+			},
+		},
+	},
 	[29] = 
 	{
 		
@@ -638,6 +705,33 @@ local tbl =
 				timelineIndex = 35,
 				timerStartOffset = -10,
 				uuid = "cb0e1ec7-c4be-4b3f-b44e-c127a6ee49c1",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Jumps",
+							uuid = "e61c067e-26d2-9e25-a721-d394bc23def7",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 168.7,
+				name = "Enable Jumps",
+				timelineIndex = 35,
+				uuid = "70ed30b5-8320-b477-add6-0890d86ee2a8",
 				version = 2,
 			},
 		},
@@ -1075,6 +1169,66 @@ local tbl =
 			},
 		},
 	},
+	[80] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Jumps",
+							gVarValue = 2,
+							uuid = "a378d71f-9df1-01e0-828e-f1d75ab71b6a",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 325.7,
+				name = "Disable Jumps",
+				timelineIndex = 80,
+				timerOffset = -4,
+				uuid = "61a66332-62a9-2884-b08e-8dc5e23d5df6",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Jumps",
+							uuid = "e61c067e-26d2-9e25-a721-d394bc23def7",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 325.7,
+				name = "Enable Jumps",
+				timelineIndex = 80,
+				timerOffset = 1,
+				uuid = "85823976-23da-8bd5-8c9a-3dc88aae7644",
+				version = 2,
+			},
+		},
+	},
 	[82] = 
 	{
 		
@@ -1104,6 +1258,66 @@ local tbl =
 				timelineIndex = 82,
 				timerStartOffset = -10,
 				uuid = "58bd63b8-0f0f-83dc-a9a0-6b2aaa0dc114",
+				version = 2,
+			},
+		},
+	},
+	[85] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Jumps",
+							gVarValue = 2,
+							uuid = "a378d71f-9df1-01e0-828e-f1d75ab71b6a",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 341.3,
+				name = "Disable Jumps",
+				timelineIndex = 85,
+				timerOffset = -4,
+				uuid = "ae80948a-4d18-07ec-8bed-922b75c7120e",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Jumps",
+							uuid = "e61c067e-26d2-9e25-a721-d394bc23def7",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 341.3,
+				name = "Enable Jumps",
+				timelineIndex = 85,
+				timerOffset = 1,
+				uuid = "a2f3abed-4efc-1f12-be89-fa998182299a",
 				version = 2,
 			},
 		},
