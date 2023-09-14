@@ -97,10 +97,233 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 15,
 				name = "TBN Self",
 				timelineIndex = 3,
 				uuid = "c2ef90de-523c-c00c-9e05-90e59f872f5d",
+				version = 2,
+			},
+		},
+	},
+	[6] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Third Eye",
+				uuid = "4e56cd5f-6796-c302-b27e-172782c231c9",
+				version = 2,
+			},
+			inheritedIndex = 3,
+			inheritedObjectUUID = "4e752767-e3e9-17cf-a86c-adbff96fd7ed",
+			inheritedOverwrites = 
+			{
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 25754,
+							conditions = 
+							{
+								
+								{
+									"bda33be3-1333-a719-b39f-ee33c78f42eb",
+									true,
+								},
+							},
+							uuid = "a741b404-1091-a040-b9c2-cea94e0512e3",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 3,
+							buffDuration = 8,
+							buffID = 3456,
+							category = "Self",
+							comparator = 2,
+							uuid = "bda33be3-1333-a719-b39f-ee33c78f42eb",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 29.1,
+				name = "Oblation Buff Check",
+				timeRange = true,
+				timelineIndex = 6,
+				timerStartOffset = -8,
+				uuid = "ba727e58-1166-76f5-a312-feebb9b400a3",
+				version = 2,
+			},
+		},
+	},
+	[8] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 25754,
+							conditions = 
+							{
+								
+								{
+									"bda33be3-1333-a719-b39f-ee33c78f42eb",
+									true,
+								},
+							},
+							uuid = "a741b404-1091-a040-b9c2-cea94e0512e3",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 3,
+							buffDuration = 8,
+							buffID = 3456,
+							category = "Self",
+							comparator = 2,
+							uuid = "bda33be3-1333-a719-b39f-ee33c78f42eb",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 38.1,
+				name = "Oblation Buff Check",
+				timeRange = true,
+				timelineIndex = 8,
+				timerStartOffset = -8,
+				uuid = "2613b4fd-d317-dbea-95e3-1fc3056944c5",
+				version = 2,
+			},
+		},
+	},
+	[10] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 25754,
+							conditions = 
+							{
+								
+								{
+									"bda33be3-1333-a719-b39f-ee33c78f42eb",
+									true,
+								},
+							},
+							uuid = "a741b404-1091-a040-b9c2-cea94e0512e3",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 3,
+							buffDuration = 8,
+							buffID = 3456,
+							category = "Self",
+							comparator = 2,
+							uuid = "bda33be3-1333-a719-b39f-ee33c78f42eb",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 47.1,
+				name = "Oblation Buff Check",
+				timeRange = true,
+				timelineIndex = 10,
+				timerStartOffset = -8,
+				uuid = "bf842528-1a96-cc2e-9baf-3c6bc03f5d61",
+				version = 2,
+			},
+		},
+	},
+	[12] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 25754,
+							conditions = 
+							{
+								
+								{
+									"bda33be3-1333-a719-b39f-ee33c78f42eb",
+									true,
+								},
+							},
+							uuid = "a741b404-1091-a040-b9c2-cea94e0512e3",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 3,
+							buffDuration = 8,
+							buffID = 3456,
+							category = "Self",
+							comparator = 2,
+							uuid = "bda33be3-1333-a719-b39f-ee33c78f42eb",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 56.1,
+				name = "Oblation Buff Check",
+				timeRange = true,
+				timelineIndex = 12,
+				timerStartOffset = -8,
+				uuid = "67335cd0-3d47-6eb3-bcc6-3cf59b0e5939",
 				version = 2,
 			},
 		},
@@ -183,6 +406,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 75.3,
 				name = "Tank Sprint",
 				timelineIndex = 16,
@@ -276,6 +500,7 @@ local tbl =
 							variableTogglesType = 3,
 							version = 2,
 						},
+						inheritedIndex = 1,
 					},
 				},
 				conditions = 
@@ -284,8 +509,197 @@ local tbl =
 				mechanicTime = 116.8,
 				name = "Living Dead",
 				timelineIndex = 27,
-				timerOffset = -10,
+				timerOffset = -11,
 				uuid = "90f3399d-d00c-724f-b92b-7923c93a9076",
+				version = 2,
+			},
+		},
+	},
+	[31] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 7533,
+							gVar = "ACR_RikuDRK2_Hotbar_Provoke",
+							targetContentID = 7633,
+							targetType = "ContentID",
+							uuid = "26b42f5c-431d-77ad-8943-adc5499da874",
+							variableTogglesType = 2,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 202.3,
+				name = "Provoke M",
+				timelineIndex = 31,
+				uuid = "36aa0cdf-4218-d6a5-96e2-449a6b833a90",
+				version = 2,
+			},
+		},
+	},
+	[34] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Rampart",
+							uuid = "2a44cf16-655d-4734-9f0a-04ebd1b70348",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 214.5,
+				name = "Rampart",
+				timeRange = true,
+				timelineIndex = 34,
+				timerStartOffset = -19,
+				uuid = "ff3ee0d5-45d1-1ab0-90db-3af882ed90f4",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
+							uuid = "6b0a06e7-3136-220e-83d3-8f485f98454c",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 214.5,
+				name = "Oblation Self",
+				timeRange = true,
+				timelineIndex = 34,
+				timerOffset = -9,
+				timerStartOffset = -10,
+				uuid = "b8778ec3-abf9-0773-9470-a0660fe001bc",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							uuid = "16788587-9f8b-cb2d-8551-dc30e2bc0a49",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 214.5,
+				name = "TBN Self",
+				timelineIndex = 34,
+				timerOffset = -6,
+				uuid = "6ee202c8-70f9-1910-a1fb-49245c9810e0",
+				version = 2,
+			},
+			inheritedIndex = 3,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
+							uuid = "87e6a407-614f-4309-acba-ba42c06d2c90",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 214.5,
+				name = "Shadow Wall",
+				timeRange = true,
+				timelineIndex = 34,
+				timerStartOffset = -15,
+				uuid = "1e871a42-7da3-8fd0-886b-48e547e6f8a8",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "87e6a407-614f-4309-acba-ba42c06d2c90",
+							variableTogglesType = 3,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 214.5,
+				name = "Dark Mind",
+				timeRange = true,
+				timelineIndex = 34,
+				timerStartOffset = -10,
+				uuid = "fa204a70-5e9c-6d6b-b306-e966b0ff5802",
 				version = 2,
 			},
 		},
@@ -295,7 +709,7 @@ local tbl =
 		"store\\anyone\\top\\universal",
 	},
 	mapID = 1122,
-	version = 2,
+	version = 3,
 }
 
 

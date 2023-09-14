@@ -1707,6 +1707,36 @@ local tbl =
 			},
 			inheritedIndex = 3,
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationOT",
+							uuid = "eb85a39e-cf88-51ff-bc1b-1704a59d2f55",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1027.4,
+				name = "[DRK] Oblation MT",
+				timeRange = true,
+				timelineIndex = 90,
+				timerEndOffset = 1,
+				uuid = "e27d616c-740b-668a-937e-2783fc2334e5",
+				version = 2,
+			},
+		},
 	},
 	[91] = 
 	{
@@ -1865,6 +1895,36 @@ local tbl =
 				timerOffset = -15,
 				timerStartOffset = -10,
 				uuid = "f49e091b-0689-707a-9f32-5331afded107",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationOT",
+							uuid = "eb85a39e-cf88-51ff-bc1b-1704a59d2f55",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1094.4,
+				name = "[DRK] Oblation MT",
+				timeRange = true,
+				timelineIndex = 98,
+				timerEndOffset = 1,
+				uuid = "a2953f8e-a7b7-8414-b9ff-97ced93f2068",
 				version = 2,
 			},
 		},
@@ -2187,6 +2247,36 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationOT",
+							uuid = "eb85a39e-cf88-51ff-bc1b-1704a59d2f55",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1159.2,
+				name = "[DRK] Oblation MT",
+				timeRange = true,
+				timelineIndex = 108,
+				timerStartOffset = -10,
+				uuid = "808b65eb-e937-52bf-86bb-db4d1ce193e0",
+				version = 2,
+			},
+		},
 	},
 	[114] = 
 	{
@@ -2262,9 +2352,11 @@ local tbl =
 				{
 				},
 				mechanicTime = 1215.4,
-				name = "TBN MT",
+				name = "[DRK] TBN Nearest Healer",
+				timeRange = true,
 				timelineIndex = 114,
 				timerOffset = -6,
+				timerStartOffset = -6,
 				uuid = "6d741d1c-468b-3bae-83f5-d7c02830a768",
 				version = 2,
 			},
@@ -2328,6 +2420,39 @@ local tbl =
 			},
 		},
 	},
+	[120] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationOT",
+							uuid = "eb85a39e-cf88-51ff-bc1b-1704a59d2f55",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1265,
+				name = "[DRK] Oblation MT",
+				timeRange = true,
+				timelineIndex = 120,
+				timerEndOffset = 1,
+				uuid = "d63ee18f-2eae-aa49-aef2-aad268662e10",
+				version = 2,
+			},
+		},
+	},
 	[124] = 
 	{
 		
@@ -2376,6 +2501,69 @@ local tbl =
 				timelineIndex = 124,
 				timerStartOffset = -8,
 				uuid = "614d34d7-968d-b2f9-9eea-0291e36d8c73",
+				version = 2,
+			},
+		},
+	},
+	[126] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Jumps",
+							gVarValue = 2,
+							uuid = "ce074600-1391-f74f-8db9-a347f1518a71",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1322.7,
+				name = "[M] Disable Jumps",
+				timelineIndex = 126,
+				timerOffset = -5,
+				uuid = "a5d0df68-e864-03f3-a5b7-97491bdde07b",
+				version = 2,
+			},
+		},
+	},
+	[127] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Jumps",
+							uuid = "c4c801e3-7f23-bbbe-a504-ebbaf826f30e",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1325.2,
+				name = "[M] Enable Jumps",
+				timelineIndex = 127,
+				timerOffset = 1,
+				uuid = "17ea1b92-b277-a71d-9202-da322c7512e1",
 				version = 2,
 			},
 		},
@@ -2502,6 +2690,36 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationOT",
+							uuid = "eb85a39e-cf88-51ff-bc1b-1704a59d2f55",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1348.4,
+				name = "[DRK] Oblation MT",
+				timeRange = true,
+				timelineIndex = 134,
+				timerStartOffset = -10,
+				uuid = "4eb88bef-9908-78ce-9e7a-7763f717e3d9",
+				version = 2,
+			},
+		},
 	},
 	[135] = 
 	{
@@ -2624,6 +2842,39 @@ local tbl =
 			},
 		},
 	},
+	[149] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationOT",
+							uuid = "eb85a39e-cf88-51ff-bc1b-1704a59d2f55",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1425.9,
+				name = "[DRK] Oblation MT",
+				timeRange = true,
+				timelineIndex = 149,
+				timerEndOffset = 1,
+				uuid = "c1214153-5a56-f56e-8b1c-463f57a9f834",
+				version = 2,
+			},
+		},
+	},
 	[158] = 
 	{
 		
@@ -2730,6 +2981,36 @@ local tbl =
 				timerOffset = -15,
 				timerStartOffset = -10,
 				uuid = "993c9608-83db-925f-803b-f2e6f198b8aa",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationOT",
+							uuid = "eb85a39e-cf88-51ff-bc1b-1704a59d2f55",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1494.6,
+				name = "[DRK] Oblation MT",
+				timeRange = true,
+				timelineIndex = 160,
+				timerEndOffset = 1,
+				uuid = "115db184-5064-e0cb-a28e-643023416304",
 				version = 2,
 			},
 		},
