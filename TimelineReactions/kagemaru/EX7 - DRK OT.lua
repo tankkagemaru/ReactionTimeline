@@ -81,6 +81,67 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
+							uuid = "87e6a407-614f-4309-acba-ba42c06d2c90",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 42.1,
+				name = "[DRK] Shadow Wall",
+				timeRange = true,
+				timelineIndex = 5,
+				timerStartOffset = -10,
+				uuid = "857d7597-78a9-8ae8-b34b-532fca2528f8",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
+							uuid = "6b0a06e7-3136-220e-83d3-8f485f98454c",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 42.1,
+				name = "[DRK] Oblation Self",
+				timeRange = true,
+				timelineIndex = 5,
+				timerOffset = -9,
+				timerStartOffset = -10,
+				uuid = "cb62b45a-c50b-b821-82aa-4455e3881a32",
+				version = 2,
+			},
+		},
 	},
 	[6] = 
 	{
@@ -592,6 +653,67 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
+							uuid = "87e6a407-614f-4309-acba-ba42c06d2c90",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 329.2,
+				name = "[DRK] Shadow Wall",
+				timeRange = true,
+				timelineIndex = 36,
+				timerStartOffset = -10,
+				uuid = "816dd6d4-2868-cb07-98eb-ffe050c9f117",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
+							uuid = "6b0a06e7-3136-220e-83d3-8f485f98454c",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 329.2,
+				name = "[DRK] Oblation Self",
+				timeRange = true,
+				timelineIndex = 36,
+				timerOffset = -9,
+				timerStartOffset = -10,
+				uuid = "5da846fc-c665-f1c8-b4c0-5669b959ca51",
+				version = 2,
+			},
+		},
 	},
 	[38] = 
 	{
@@ -815,6 +937,67 @@ local tbl =
 				timelineIndex = 50,
 				timerOffset = -5,
 				uuid = "ad46c8ad-3d21-aea3-8c3d-b077b93480ff",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
+							uuid = "87e6a407-614f-4309-acba-ba42c06d2c90",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 493.7,
+				name = "[DRK] Shadow Wall",
+				timeRange = true,
+				timelineIndex = 50,
+				timerStartOffset = -10,
+				uuid = "403a1695-7d14-2a26-ad11-22015b4e0bd6",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
+							uuid = "6b0a06e7-3136-220e-83d3-8f485f98454c",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 493.7,
+				name = "[DRK] Oblation Self",
+				timeRange = true,
+				timelineIndex = 50,
+				timerOffset = -9,
+				timerStartOffset = -10,
+				uuid = "032fdb02-5801-7f86-925f-7403debab7ec",
 				version = 2,
 			},
 		},
