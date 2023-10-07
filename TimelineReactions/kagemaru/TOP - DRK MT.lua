@@ -663,6 +663,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 214.5,
 				name = "Shadow Wall",
 				timeRange = true,
