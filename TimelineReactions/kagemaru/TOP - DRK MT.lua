@@ -48,6 +48,20 @@ local tbl =
 		{
 			data = 
 			{
+				name = "Set custom cone angle",
+				uuid = "a3ea5c8d-a50d-7836-91ee-179258df8069",
+				version = 2,
+			},
+			inheritedObjectUUID = "72f774f5-b7ec-72bd-a4d2-1445930108dc",
+			inheritedOverwrites = 
+			{
+				timerOffset = -3.4000000953674,
+			},
+		},
+		
+		{
+			data = 
+			{
 				name = "Hold Triplecast in Opener",
 				uuid = "ed74a014-5a11-2e4e-bd83-bc7a929749ba",
 				version = 2,
@@ -445,35 +459,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuDRK2_SaltedEarth",
-							gVarValue = 2,
-							uuid = "ce2e8383-8208-3623-a7a0-06861b9eb737",
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 108,
-				name = "[DRK] Hold Salted Earth",
-				timelineIndex = 25,
-				uuid = "425404c0-0c20-d08b-b0eb-15d2129cb4c0",
-				version = 2,
-			},
-			inheritedIndex = 13,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							endIfUsed = true,
 							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
 							uuid = "63c4a9f0-aaa9-7d6a-8eb7-c585693621bc",
@@ -509,6 +494,7 @@ local tbl =
 						{
 							aType = "Variable",
 							endIfUsed = true,
+							fallthrough = true,
 							gVar = "ACR_RikuDRK2_Tankbar_LivingDead",
 							uuid = "1dc9cb76-9f46-b158-98c1-4a39dc7575da",
 							variableTogglesType = 3,
@@ -521,12 +507,13 @@ local tbl =
 				{
 				},
 				mechanicTime = 116.8,
-				name = "[DRK] Living Dead (11s)",
+				name = "Living Dead (11)",
 				timelineIndex = 27,
 				timerOffset = -11,
 				uuid = "90f3399d-d00c-724f-b92b-7923c93a9076",
 				version = 2,
 			},
+			inheritedIndex = 2,
 		},
 	},
 	[31] = 
@@ -535,122 +522,15 @@ local tbl =
 		{
 			data = 
 			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_SaltedEarth",
-							uuid = "ce2e8383-8208-3623-a7a0-06861b9eb737",
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 202.3,
-				name = "[DRK] Start Salted Earth",
-				timeRange = true,
-				timelineIndex = 31,
-				timerStartOffset = -3,
-				uuid = "8d42d319-7cd7-648a-84fb-e0ae5eac6043",
+				name = "Precast Raid Buffs",
+				uuid = "ebd76490-cadf-1ee7-9b12-ef994e297f70",
 				version = 2,
 			},
-			inheritedIndex = 11,
-		},
-		
-		{
-			data = 
+			inheritedObjectUUID = "54e4054a-f537-63aa-bee6-7a6a8e044978",
+			inheritedOverwrites = 
 			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 3625,
-							gVar = "ACR_RikuDRK2_SaltedEarth",
-							uuid = "ce2e8383-8208-3623-a7a0-06861b9eb737",
-							version = 2,
-						},
-						inheritedIndex = 1,
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 202.3,
-				name = "[DRK] Pre-Cast Blood Weapon",
-				timeRange = true,
-				timelineIndex = 31,
-				timerStartOffset = -3,
-				uuid = "564fa3f9-eb3c-f68f-b42a-aed54dd03f48",
-				version = 2,
+				timerOffset = -1.3999999761581,
 			},
-			inheritedIndex = 12,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_AOE",
-							gVarValue = 2,
-							uuid = "ce2e8383-8208-3623-a7a0-06861b9eb737",
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 202.3,
-				name = "[T] Hold AoE",
-				timelineIndex = 31,
-				timerOffset = -1,
-				uuid = "a9acaf94-38ea-cf72-97cf-7db1d247e6a4",
-				version = 2,
-			},
-			inheritedIndex = 13,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 7390,
-							gVar = "ACR_RikuDRK2_CD",
-							uuid = "9e108993-3904-f136-bbab-0bbbdec5eec4",
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 202.3,
-				name = "[DRK] Pre-Cast Delirium",
-				timeRange = true,
-				timelineIndex = 31,
-				timerStartOffset = -3,
-				uuid = "1ef6aeca-9bf4-df26-9de8-de59b627dd0b",
-				version = 2,
-			},
-			inheritedIndex = 14,
 		},
 		
 		{
@@ -725,12 +605,141 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 202.3,
 				name = "[T] Provoke (MALE)",
 				timelineIndex = 31,
 				uuid = "36aa0cdf-4218-d6a5-96e2-449a6b833a90",
 				version = 2,
 			},
+			inheritedIndex = 10,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Misc",
+							gVar = "ACR_RikuDRK2_CD",
+							ignoreWeaveRules = true,
+							potType = 4,
+							usePot = true,
+							uuid = "67d9ad4b-b5cc-fe40-b8d8-66a818cc8114",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 202.3,
+				name = "Force Pot",
+				timelineIndex = 31,
+				timerOffset = -3.5,
+				uuid = "3289c0ff-9a08-35ab-a4c4-95aaf10d91ca",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 3625,
+							gVar = "ACR_RikuDRK2_SaltedEarth",
+							ignoreWeaveRules = true,
+							uuid = "ce2e8383-8208-3623-a7a0-06861b9eb737",
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 202.3,
+				name = "[DRK] Pre-Cast Blood Weapon",
+				timeRange = true,
+				timelineIndex = 31,
+				timerEndOffset = 1,
+				timerStartOffset = -1,
+				uuid = "564fa3f9-eb3c-f68f-b42a-aed54dd03f48",
+				version = 2,
+			},
+			inheritedIndex = 12,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_AOE",
+							gVarValue = 2,
+							uuid = "ce2e8383-8208-3623-a7a0-06861b9eb737",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 202.3,
+				name = "[T] Hold AoE",
+				timelineIndex = 31,
+				timerOffset = -1,
+				uuid = "a9acaf94-38ea-cf72-97cf-7db1d247e6a4",
+				version = 2,
+			},
+			inheritedIndex = 13,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 7390,
+							gVar = "ACR_RikuDRK2_CD",
+							ignoreWeaveRules = true,
+							uuid = "9e108993-3904-f136-bbab-0bbbdec5eec4",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 202.3,
+				name = "[DRK] Pre-Cast Delirium",
+				timeRange = true,
+				timelineIndex = 31,
+				timerEndOffset = 1,
+				timerStartOffset = -1,
+				uuid = "1ef6aeca-9bf4-df26-9de8-de59b627dd0b",
+				version = 2,
+			},
+			inheritedIndex = 14,
 		},
 	},
 	[33] = 
@@ -752,36 +761,6 @@ local tbl =
 	},
 	[34] = 
 	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
-							uuid = "16788587-9f8b-cb2d-8551-dc30e2bc0a49",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 214.5,
-				name = "[DRK] TBN (S) (6s)",
-				timelineIndex = 34,
-				timerOffset = -6,
-				uuid = "6ee202c8-70f9-1910-a1fb-49245c9810e0",
-				version = 2,
-			},
-			inheritedIndex = 3,
-		},
 		
 		{
 			data = 
@@ -838,11 +817,41 @@ local tbl =
 				name = "[DRK] Dark Mind (10s)",
 				timeRange = true,
 				timelineIndex = 34,
-				timerStartOffset = -10,
+				timerStartOffset = -3,
 				uuid = "fa204a70-5e9c-6d6b-b306-e966b0ff5802",
 				version = 2,
 			},
 			inheritedIndex = 5,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							uuid = "16788587-9f8b-cb2d-8551-dc30e2bc0a49",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 214.5,
+				name = "[DRK] TBN (S) (6s)",
+				timelineIndex = 34,
+				timerOffset = -6,
+				uuid = "6ee202c8-70f9-1910-a1fb-49245c9810e0",
+				version = 2,
+			},
+			inheritedIndex = 3,
 		},
 		
 		{
@@ -892,6 +901,36 @@ local tbl =
 			{
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_AOE",
+							uuid = "ce2e8383-8208-3623-a7a0-06861b9eb737",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 233.9,
+				name = "[T] Start AoE",
+				timelineIndex = 36,
+				timerOffset = -1,
+				uuid = "a7accfe4-d14f-28c6-a8f0-9f01d0968bc7",
+				version = 2,
+			},
+			inheritedIndex = 13,
+		},
 	},
 	[38] = 
 	{
@@ -932,6 +971,39 @@ local tbl =
 	},
 	[46] = 
 	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
+							uuid = "6b0a06e7-3136-220e-83d3-8f485f98454c",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 262.1,
+				name = "[DRK] Oblation (S) (10s)",
+				timeRange = true,
+				timelineIndex = 46,
+				timerEndOffset = 3,
+				timerOffset = -9,
+				timerStartOffset = -1,
+				uuid = "50cc867c-44b1-ab4c-b8d4-82fae6de61ca",
+				version = 2,
+			},
+			inheritedIndex = 4,
+		},
 		
 		{
 			data = 
@@ -1033,6 +1105,7 @@ local tbl =
 						},
 					},
 				},
+				enabled = false,
 				mechanicTime = 262.1,
 				name = "[DRK] Dash",
 				timelineIndex = 46,
@@ -1040,6 +1113,59 @@ local tbl =
 				timerOffset = -1,
 				timerStartOffset = -20,
 				uuid = "29843ddf-296a-27cf-9a99-a6466af5f2bc",
+				version = 2,
+			},
+			inheritedIndex = 10,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 7533,
+							conditions = 
+							{
+								
+								{
+									"fe6b0140-9c6a-43e5-9f2a-a52509e58c24",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Hotbar_Provoke",
+							targetContentID = 7633,
+							targetType = "ContentID",
+							uuid = "26b42f5c-431d-77ad-8943-adc5499da874",
+							variableTogglesType = 2,
+							version = 2,
+						},
+						inheritedIndex = 3,
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							conditionType = 6,
+							inRangeValue = 5,
+							uuid = "fe6b0140-9c6a-43e5-9f2a-a52509e58c24",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 262.1,
+				name = "Provoke",
+				timeRange = true,
+				timelineIndex = 46,
+				timerEndOffset = 1,
+				uuid = "a828c77b-c82f-67d2-9945-ac4b71bcdff4",
 				version = 2,
 			},
 		},
@@ -1053,24 +1179,24 @@ local tbl =
 					{
 						data = 
 						{
-							actionID = 7533,
-							gVar = "ACR_RikuDRK2_Hotbar_Provoke",
-							targetContentID = 7633,
-							targetType = "ContentID",
-							uuid = "26b42f5c-431d-77ad-8943-adc5499da874",
-							variableTogglesType = 2,
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "bc157ddd-12da-af46-b98d-d664014cafe8",
+							variableTogglesType = 3,
 							version = 2,
 						},
-						inheritedIndex = 1,
 					},
 				},
 				conditions = 
 				{
 				},
 				mechanicTime = 262.1,
-				name = "Provoke M",
+				name = "[DRK] Dark Mind (1s)",
+				timeRange = true,
 				timelineIndex = 46,
-				uuid = "a828c77b-c82f-67d2-9945-ac4b71bcdff4",
+				timerEndOffset = 6,
+				timerStartOffset = -1,
+				uuid = "963b040c-6bfa-d562-90a9-037fd63c2790",
 				version = 2,
 			},
 		},
@@ -1159,6 +1285,72 @@ local tbl =
 			},
 		},
 	},
+	[50] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Jumps",
+							gVarValue = 2,
+							uuid = "de0f4b33-2dad-b265-a60d-625fdba45799",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 287.4,
+				name = "[M] Jump Off",
+				timeRange = true,
+				timelineIndex = 50,
+				timerEndOffset = 1,
+				timerOffset = 1,
+				timerStartOffset = -1,
+				uuid = "02b95d36-9ad3-3030-adaf-fd3f388b379b",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Hotbar_Sprint",
+							uuid = "50f33113-4ee9-7027-beb1-f5e6ea6363bf",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 287.4,
+				name = "Sprint",
+				timeRange = true,
+				timelineIndex = 50,
+				timerEndOffset = 2,
+				timerStartOffset = 1,
+				uuid = "f92ca61c-bc67-5c54-b2d2-b02056148698",
+				version = 2,
+			},
+		},
+	},
 	[52] = 
 	{
 		
@@ -1192,20 +1384,6 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 4,
-		},
-		
-		{
-			data = 
-			{
-				name = "[WAR] Dash",
-				uuid = "9fd14399-1198-29a0-93c1-f97e4e3817ab",
-				version = 2,
-			},
-			inheritedObjectUUID = "ac72ce5a-ef34-8b55-9d0a-09fc54adeb9e",
-			inheritedOverwrites = 
-			{
-				timerOffset = 0.20000000298023,
-			},
 		},
 		
 		{
@@ -1306,8 +1484,9 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Variable",
+							actionID = 3640,
 							gVar = "ACR_RikuDRK2_Hotbar_Plunge",
+							targetType = "Current Target",
 							uuid = "071f0c29-dc20-072f-b089-788ae762d9a6",
 							variableTogglesType = 2,
 							version = 2,
@@ -1328,6 +1507,37 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 14,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Jumps",
+							uuid = "de0f4b33-2dad-b265-a60d-625fdba45799",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 295.6,
+				name = "[M] Jump On",
+				timeRange = true,
+				timelineIndex = 52,
+				timerEndOffset = 1,
+				timerOffset = -1,
+				timerStartOffset = -1,
+				uuid = "c1bdbd6e-9b47-da57-a129-a5e3178ba9a9",
+				version = 2,
+			},
 		},
 	},
 	[55] = 
@@ -1356,7 +1566,7 @@ local tbl =
 				mechanicTime = 309.7,
 				name = "[DRK] Dark Missionary (10s)",
 				timelineIndex = 55,
-				timerOffset = -10,
+				timerOffset = -5,
 				uuid = "99066662-3124-3790-a131-31a6c7316c03",
 				version = 2,
 			},
@@ -1446,6 +1656,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 441.3,
 				name = "[T] Shirk",
 				timeRange = true,
@@ -1455,6 +1666,7 @@ local tbl =
 				uuid = "b2f453a1-ffdf-5ba0-bd01-0e5bff93dcdf",
 				version = 2,
 			},
+			inheritedIndex = 14,
 		},
 		
 		{
@@ -1509,6 +1721,35 @@ local tbl =
 				name = "[DRK] TBN MT",
 				timelineIndex = 76,
 				uuid = "e585f1fd-e27f-cf7f-ba38-1e902fe232ff",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Hotbar_ReleaseGrit",
+							uuid = "78ad0596-62e1-06eb-ac00-af75b3ec9bf4",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 441.3,
+				name = "Stance Off",
+				timelineIndex = 76,
+				timerOffset = -1,
+				uuid = "eb78ddec-7730-00bd-b8ef-cdf847c4862c",
 				version = 2,
 			},
 		},
@@ -1620,36 +1861,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
-							uuid = "5695377d-d030-29d0-bc30-71d951134a46",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 506.5,
-				name = "[DRK] Dark Missionary",
-				timelineIndex = 84,
-				timerOffset = -3,
-				uuid = "6e8cc9b4-382f-d19d-8f27-cedf7726ef92",
-				version = 2,
-			},
-			inheritedIndex = 7,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							gVar = "ACR_RikuDRK2_Hotbar_Provoke",
 							uuid = "e51063c5-b201-0ee1-9ccb-7ecfddc68cd4",
 							variableTogglesType = 2,
@@ -1726,6 +1937,87 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Hotbar_Grit",
+							uuid = "78ad0596-62e1-06eb-ac00-af75b3ec9bf4",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 506.5,
+				name = "Stance On",
+				timelineIndex = 84,
+				timerOffset = -5,
+				uuid = "2e864687-4754-282c-b36c-b58651d70c3d",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"d424777a-746a-e4d9-ab10-9f4c89b38891",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
+							uuid = "5695377d-d030-29d0-bc30-71d951134a46",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Party",
+							conditionType = 4,
+							partyTargetNumber = 6,
+							partyTargetSubType = "Number",
+							uuid = "d424777a-746a-e4d9-ab10-9f4c89b38891",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 506.5,
+				name = "[DRK] Dark Missionary",
+				timeRange = true,
+				timelineIndex = 84,
+				timerOffset = -5,
+				timerStartOffset = -8,
+				uuid = "6e8cc9b4-382f-d19d-8f27-cedf7726ef92",
+				version = 2,
+			},
+			inheritedIndex = 7,
+		},
 	},
 	[88] = 
 	{
@@ -1786,6 +2078,40 @@ local tbl =
 				name = "[DRK] TBN (S)(6s)",
 				timelineIndex = 88,
 				uuid = "24bed5fa-508b-db34-a43e-d480aac17f1d",
+				version = 2,
+			},
+		},
+	},
+	[91] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
+							uuid = "6b0a06e7-3136-220e-83d3-8f485f98454c",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 550.1,
+				name = "[DRK] Oblation (S) (10s)",
+				timeRange = true,
+				timelineIndex = 91,
+				timerOffset = -9,
+				timerStartOffset = -15,
+				uuid = "b9385929-8439-8797-a916-4c83f742a526",
 				version = 2,
 			},
 		},
@@ -1890,7 +2216,135 @@ local tbl =
 				mechanicTime = 621.4,
 				name = "[T] Reprisal",
 				timelineIndex = 102,
+				timerOffset = -5,
 				uuid = "7e8a9323-e7db-4d13-a5fd-a09f5c7410e3",
+				version = 2,
+			},
+		},
+	},
+	[104] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Oblation",
+							targetType = "Healer",
+							uuid = "6b0a06e7-3136-220e-83d3-8f485f98454c",
+							variableIsHover = true,
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 627,
+				name = "[DRK] Oblation (S) (10s)",
+				timeRange = true,
+				timelineIndex = 104,
+				timerOffset = -9,
+				timerStartOffset = -5,
+				uuid = "ead22939-f0bd-d606-8bc6-8e7f40fea459",
+				version = 2,
+			},
+		},
+	},
+	[111] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"122d176f-d1cf-2faa-bc7d-e64502659b93",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
+							uuid = "5695377d-d030-29d0-bc30-71d951134a46",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 5,
+							category = "Party",
+							comparator = 2,
+							conditionType = 4,
+							inGroupTargetType = "Party",
+							inRangeValue = 15,
+							minTargetPercent = true,
+							partyTargetNumber = 100,
+							partyTargetSubType = "Number",
+							uuid = "122d176f-d1cf-2faa-bc7d-e64502659b93",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 636.6,
+				name = "[DRK] Dark Missionary",
+				timelineIndex = 111,
+				timerOffset = -5,
+				uuid = "290fa45a-2571-7309-8f53-de2535fe2009",
+				version = 2,
+			},
+			inheritedIndex = 7,
+		},
+	},
+	[112] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Hotbar_Sprint",
+							uuid = "50f33113-4ee9-7027-beb1-f5e6ea6363bf",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 636.8,
+				name = "Sprint",
+				timeRange = true,
+				timelineIndex = 112,
+				timerEndOffset = 2.5,
+				uuid = "54c2191b-bd58-779f-a762-4422a5dba7e6",
 				version = 2,
 			},
 		},
@@ -1909,6 +2363,1559 @@ local tbl =
 			inheritedOverwrites = 
 			{
 				timerStartOffset = -14.89999961853,
+			},
+		},
+	},
+	[126] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Hotbar_Provoke",
+							uuid = "0c82f2e7-240d-ba93-be8e-5dcbbed5b02f",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 715.6,
+				name = "[T] Provoke",
+				timelineIndex = 126,
+				uuid = "33724af6-0de2-8c6d-a92e-993dea6d6c44",
+				version = 2,
+			},
+			inheritedIndex = 5,
+		},
+	},
+	[127] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
+							uuid = "87e6a407-614f-4309-acba-ba42c06d2c90",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 723.6,
+				name = "[DRK] Shadow Wall (10s)",
+				timeRange = true,
+				timelineIndex = 127,
+				timerStartOffset = -14,
+				uuid = "7b088161-e062-14f0-8787-1e49af83b5d4",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Rampart",
+							uuid = "2a44cf16-655d-4734-9f0a-04ebd1b70348",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 723.6,
+				name = "[T] Rampart (14s)",
+				timeRange = true,
+				timelineIndex = 127,
+				timerStartOffset = -14,
+				uuid = "7fcb336b-30f0-1cf6-bc6d-7eab481ddaa5",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							uuid = "16788587-9f8b-cb2d-8551-dc30e2bc0a49",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 723.6,
+				name = "[DRK] TBN (S) (6s)",
+				timelineIndex = 127,
+				timerOffset = -6,
+				uuid = "ebeb6a83-f8be-8ec8-99bb-1ce87b384433",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
+							uuid = "6b0a06e7-3136-220e-83d3-8f485f98454c",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 723.6,
+				name = "[DRK] Oblation (S) (10s)",
+				timeRange = true,
+				timelineIndex = 127,
+				timerOffset = -9,
+				timerStartOffset = -10,
+				uuid = "299c869f-665d-fd92-bc47-c89edb2185db",
+				version = 2,
+			},
+			inheritedIndex = 4,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "6b0a06e7-3136-220e-83d3-8f485f98454c",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 723.6,
+				name = "[DRK] Dark Mind (10s)",
+				timeRange = true,
+				timelineIndex = 127,
+				timerOffset = -9,
+				timerStartOffset = -8,
+				uuid = "62c1b0a7-3247-2d28-ae40-9f9b277eea9b",
+				version = 2,
+			},
+			inheritedIndex = 5,
+		},
+	},
+	[128] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
+							uuid = "83d8e696-bc78-6ffc-ae43-0666a8e61265",
+							variableTogglesType = 2,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 726.8,
+				name = "Shirk OT",
+				timelineIndex = 128,
+				timerOffset = -3,
+				uuid = "d390fcf9-1b79-3d6b-a021-b2f38298a4ff",
+				version = 2,
+			},
+		},
+	},
+	[130] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "rDPS Mitigation",
+				uuid = "09a90fa3-7834-b0ab-b678-61fa98af888e",
+				version = 2,
+			},
+			inheritedObjectUUID = "fe03b0f7-13d1-ee9a-950b-c4aae0f04eb1",
+			inheritedOverwrites = 
+			{
+				timerStartOffset = -14.89999961853,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
+							uuid = "928abf27-3739-7f5a-b580-684b69f2fbee",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 740,
+				name = "[T] Reprisal",
+				timelineIndex = 130,
+				timerOffset = -9,
+				uuid = "dab3575d-ba33-5aa0-9bdd-2224be8081f3",
+				version = 2,
+			},
+		},
+	},
+	[156] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Hotbar_Provoke",
+							uuid = "0c82f2e7-240d-ba93-be8e-5dcbbed5b02f",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 791.1,
+				name = "[T] Provoke",
+				timelineIndex = 156,
+				uuid = "a58aaa04-d907-2b36-8dbf-8dbde4457f79",
+				version = 2,
+			},
+			inheritedIndex = 5,
+		},
+	},
+	[158] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							endIfUsed = true,
+							fallthrough = true,
+							gVar = "ACR_RikuDRK2_Tankbar_LivingDead",
+							uuid = "1dc9cb76-9f46-b158-98c1-4a39dc7575da",
+							variableTogglesType = 3,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 808.5,
+				name = "Living Dead (11)",
+				timelineIndex = 158,
+				timerOffset = -11,
+				uuid = "878026eb-6f53-0dcf-aed3-c3ceb4ab8baa",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
+	},
+	[160] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "rDPS Mitigation",
+				uuid = "b1f00176-b07b-3b1f-aebb-163034eb7e9e",
+				version = 2,
+			},
+			inheritedObjectUUID = "3ebc1db6-23ee-d85b-b374-03bed9127a5c",
+			inheritedOverwrites = 
+			{
+				timerStartOffset = -14.800000190735,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
+							uuid = "928abf27-3739-7f5a-b580-684b69f2fbee",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 821.7,
+				name = "[T] Reprisal",
+				timelineIndex = 160,
+				timerOffset = -9,
+				uuid = "240e371a-96c9-b29b-a1a5-6fe7490bde89",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
+							uuid = "5695377d-d030-29d0-bc30-71d951134a46",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 821.7,
+				name = "[DRK] Dark Missionary (10s)",
+				timelineIndex = 160,
+				timerOffset = -10,
+				uuid = "afb11939-7236-b26d-9dc8-b2fa2d9fdb67",
+				version = 2,
+			},
+		},
+	},
+	[185] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
+							uuid = "83d8e696-bc78-6ffc-ae43-0666a8e61265",
+							variableTogglesType = 2,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 894.3,
+				name = "Shirk OT",
+				timeRange = true,
+				timelineIndex = 185,
+				timerEndOffset = -1,
+				timerOffset = -3,
+				timerStartOffset = -4,
+				uuid = "9d532e5d-46c9-dc4f-8563-ab4471be7eeb",
+				version = 2,
+			},
+		},
+	},
+	[188] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "rDPS Mitigation",
+				uuid = "eab2d60d-fcd1-e04f-ba2b-c2dcfe7bfa1d",
+				version = 2,
+			},
+			inheritedObjectUUID = "2e9a0a7b-2b1a-a8ef-a1d2-7f1d42bbfb89",
+			inheritedOverwrites = 
+			{
+				timerStartOffset = -14.800000190735,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
+							uuid = "928abf27-3739-7f5a-b580-684b69f2fbee",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 910.7,
+				name = "[T] Reprisal",
+				timelineIndex = 188,
+				timerOffset = -9,
+				uuid = "c39a4d66-ace5-c1ed-be71-8fd1d1bb41d2",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
+							uuid = "5695377d-d030-29d0-bc30-71d951134a46",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 910.7,
+				name = "[DRK] Dark Missionary (10s)",
+				timelineIndex = 188,
+				timerOffset = -10,
+				uuid = "bb186fc2-d7f4-1355-8b12-e9e745b7bade",
+				version = 2,
+			},
+		},
+	},
+	[207] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
+							uuid = "87e6a407-614f-4309-acba-ba42c06d2c90",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 976.8,
+				name = "[DRK] Shadow Wall (10s)",
+				timeRange = true,
+				timelineIndex = 207,
+				timerStartOffset = -14,
+				uuid = "8ac58629-9e69-a4ac-97fa-47e9f203dfbf",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Rampart",
+							uuid = "2a44cf16-655d-4734-9f0a-04ebd1b70348",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 976.8,
+				name = "[T] Rampart (14s)",
+				timeRange = true,
+				timelineIndex = 207,
+				timerStartOffset = -14,
+				uuid = "96ccd633-a8c3-0402-93e3-cba782de36b5",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							uuid = "16788587-9f8b-cb2d-8551-dc30e2bc0a49",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 976.8,
+				name = "[DRK] TBN (S) (6s)",
+				timelineIndex = 207,
+				timerOffset = -6,
+				uuid = "96cc1225-6c88-1f16-93fe-35bc03268610",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
+							uuid = "6b0a06e7-3136-220e-83d3-8f485f98454c",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 976.8,
+				name = "[DRK] Oblation (S) (10s)",
+				timeRange = true,
+				timelineIndex = 207,
+				timerOffset = -9,
+				timerStartOffset = -10,
+				uuid = "c2a8803c-ecd9-8e99-bedd-1a47bfb7f70e",
+				version = 2,
+			},
+			inheritedIndex = 4,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "6b0a06e7-3136-220e-83d3-8f485f98454c",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 976.8,
+				name = "[DRK] Dark Mind (10s)",
+				timeRange = true,
+				timelineIndex = 207,
+				timerOffset = -9,
+				timerStartOffset = -8,
+				uuid = "dbd69830-aaa6-802f-8068-fc35242528b2",
+				version = 2,
+			},
+			inheritedIndex = 5,
+		},
+	},
+	[208] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
+							uuid = "83d8e696-bc78-6ffc-ae43-0666a8e61265",
+							variableTogglesType = 2,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 979.9,
+				name = "Shirk OT",
+				timeRange = true,
+				timelineIndex = 208,
+				timerEndOffset = -1,
+				timerOffset = -4,
+				timerStartOffset = -4,
+				uuid = "709b5286-1990-13de-ab25-6c97db8724ad",
+				version = 2,
+			},
+		},
+	},
+	[214] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
+							uuid = "928abf27-3739-7f5a-b580-684b69f2fbee",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1167.8,
+				name = "[T] Reprisal",
+				timelineIndex = 214,
+				timerOffset = -9,
+				uuid = "de1d1c9a-968e-74f4-8f7e-ff9d21fa3418",
+				version = 2,
+			},
+		},
+	},
+	[219] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Hotbar_Sprint",
+							uuid = "b3b399b9-b386-1866-8cdb-d7bf3462e48d",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1182.2,
+				name = "[Multi] Sprint",
+				timelineIndex = 219,
+				uuid = "9a370463-1ef0-4b2f-a7fc-cfb27c5a305e",
+				version = 2,
+			},
+		},
+	},
+	[221] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Riddle of Earth",
+				uuid = "af4ed243-d675-0e37-922d-e18874244ef4",
+				version = 2,
+			},
+			inheritedObjectUUID = "8ba808da-dc66-a176-81bc-c80fb1890db4",
+			inheritedOverwrites = 
+			{
+				actions = 
+				{
+					
+					{
+						type = "add",
+						value = 
+						{
+							data = 
+							{
+								name = "",
+								uuid = "87415474-0596-51d8-b1e5-9789eb18fc5c",
+								version = 2,
+							},
+							inheritedObjectUUID = "8c48e57e-3063-1799-864a-4124de7defc4",
+							inheritedOverwrites = 
+							{
+								gVar = "ACR_RikuDRK2_CD",
+							},
+						},
+					},
+				},
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Rampart",
+							uuid = "2a44cf16-655d-4734-9f0a-04ebd1b70348",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1199.3,
+				name = "[T] Rampart (14s)",
+				timeRange = true,
+				timelineIndex = 221,
+				timerEndOffset = -10,
+				timerStartOffset = -14,
+				uuid = "4361888a-cb8a-b231-b29d-c428c5b023c9",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
+							uuid = "6b0a06e7-3136-220e-83d3-8f485f98454c",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1199.3,
+				name = "[DRK] Oblation (S) (10s)",
+				timeRange = true,
+				timelineIndex = 221,
+				timerOffset = -9,
+				timerStartOffset = -9,
+				uuid = "f8801945-db2d-8116-a5c2-57f07d9e3d87",
+				version = 2,
+			},
+			inheritedIndex = 9,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							uuid = "16788587-9f8b-cb2d-8551-dc30e2bc0a49",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1199.3,
+				name = "[DRK] TBN (S) (6s)",
+				timelineIndex = 221,
+				timerOffset = -6,
+				uuid = "b27f3051-79b9-815b-95cc-2727dcbe62f4",
+				version = 2,
+			},
+		},
+	},
+	[227] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							endIfUsed = true,
+							gVar = "ACR_RikuDRK2_Jumps",
+							gVarValue = 2,
+							uuid = "e7c6c94e-6df1-607d-acfa-dc5fa3a80262",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				eventType = 3,
+				mechanicTime = 1215.4,
+				name = "[Multi] Disable Jumps",
+				timelineIndex = 227,
+				timerEndOffset = 100,
+				timerStartOffset = -40,
+				uuid = "53e2fc82-e21c-d2e6-91f0-c5a5d0a19992",
+				version = 2,
+			},
+		},
+	},
+	[233] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Jumps",
+							uuid = "218363aa-a41b-4522-9e38-104a27e5f3b4",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1232.9,
+				name = "[Multi] Enable Jump",
+				timelineIndex = 233,
+				timerEndOffset = 100,
+				timerOffset = 2,
+				timerStartOffset = -40,
+				uuid = "5ada5525-12c9-d698-b889-a0a36d666ab1",
+				version = 2,
+			},
+		},
+	},
+	[237] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"2b9096e9-5e98-7a0b-911a-50b2a45f81ad",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
+							uuid = "5695377d-d030-29d0-bc30-71d951134a46",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Party",
+							conditionType = 4,
+							inRangeValue = 30,
+							partyTargetNumber = 6,
+							partyTargetSubType = "Number",
+							uuid = "2b9096e9-5e98-7a0b-911a-50b2a45f81ad",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 1244.3,
+				name = "[DRK] Dark Missionary (10s)",
+				timeRange = true,
+				timelineIndex = 237,
+				timerEndOffset = -10,
+				timerOffset = -10,
+				timerStartOffset = -14,
+				uuid = "cb8dc45d-46b5-399a-a588-cc0bbd361a7a",
+				version = 2,
+			},
+			inheritedIndex = 4,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
+							uuid = "928abf27-3739-7f5a-b580-684b69f2fbee",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1244.3,
+				name = "[T] Reprisal",
+				timeRange = true,
+				timelineIndex = 237,
+				timerEndOffset = -9,
+				timerOffset = -9,
+				timerStartOffset = -10,
+				uuid = "72a44642-6e7d-7eff-95c2-99f514f5ad01",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							fallthrough = true,
+							gVar = "ACR_RikuDRK2_Tankbar_LivingDead",
+							uuid = "85b06c08-f57b-b696-a906-1cc6be873cf4",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1244.3,
+				name = "[DRK] Living Dead",
+				timelineIndex = 237,
+				timerOffset = -3,
+				uuid = "d5523fb6-6e93-39c2-8f26-050af364b3d0",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightMT",
+							uuid = "16788587-9f8b-cb2d-8551-dc30e2bc0a49",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1244.3,
+				name = "[DRK] TBN (MT) (6s)",
+				timelineIndex = 237,
+				timerOffset = -6,
+				uuid = "e7b89e97-2578-ae0c-b9da-556b316d14e6",
+				version = 2,
+			},
+		},
+	},
+	[246] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
+							uuid = "6b0a06e7-3136-220e-83d3-8f485f98454c",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1278.2,
+				name = "[DRK] Oblation (S) (10s)",
+				timeRange = true,
+				timelineIndex = 246,
+				timerOffset = -9,
+				timerStartOffset = -10,
+				uuid = "b5873ed0-fca2-bd9b-bd42-3c09bbdb81f5",
+				version = 2,
+			},
+			inheritedIndex = 4,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "6b0a06e7-3136-220e-83d3-8f485f98454c",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1278.2,
+				name = "[DRK] Dark Mind (10s)",
+				timeRange = true,
+				timelineIndex = 246,
+				timerOffset = -9,
+				timerStartOffset = -8,
+				uuid = "8f17fa06-bdd3-20fc-8663-c965ab8a3e30",
+				version = 2,
+			},
+			inheritedIndex = 5,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
+							uuid = "87e6a407-614f-4309-acba-ba42c06d2c90",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1278.2,
+				name = "[DRK] Shadow Wall (14s)",
+				timeRange = true,
+				timelineIndex = 246,
+				timerStartOffset = -14,
+				uuid = "cb946e0f-66e2-298f-b62b-3f8e207b420e",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							uuid = "16788587-9f8b-cb2d-8551-dc30e2bc0a49",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1278.2,
+				name = "[DRK] TBN (S) (6s)",
+				timelineIndex = 246,
+				timerOffset = -6,
+				uuid = "ba96a735-7a2a-2404-92c3-b6c08207254c",
+				version = 2,
+			},
+		},
+	},
+	[259] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
+							uuid = "6b0a06e7-3136-220e-83d3-8f485f98454c",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1312.4,
+				name = "[DRK] Oblation (S) (10s)",
+				timeRange = true,
+				timelineIndex = 259,
+				timerOffset = -9,
+				timerStartOffset = -9,
+				uuid = "69173125-d285-2aaf-9401-c408563d0d1a",
+				version = 2,
+			},
+			inheritedIndex = 4,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Rampart",
+							uuid = "2a44cf16-655d-4734-9f0a-04ebd1b70348",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1312.4,
+				name = "[T] Rampart (14s)",
+				timeRange = true,
+				timelineIndex = 259,
+				timerStartOffset = -14,
+				uuid = "20c266d1-ad4b-1ca7-8a17-c6949ce4815b",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
+							uuid = "928abf27-3739-7f5a-b580-684b69f2fbee",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1312.4,
+				name = "[T] Reprisal",
+				timelineIndex = 259,
+				timerOffset = -9,
+				uuid = "761db90f-5382-7286-84e8-c01d6432250e",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							uuid = "16788587-9f8b-cb2d-8551-dc30e2bc0a49",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1312.4,
+				name = "[DRK] TBN (S) (6s)",
+				timelineIndex = 259,
+				timerOffset = -6,
+				uuid = "77b8d5c5-c4a3-a56c-bb7e-b2d30334c003",
+				version = 2,
+			},
+		},
+	},
+	[265] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
+							uuid = "5695377d-d030-29d0-bc30-71d951134a46",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1331.6,
+				name = "[DRK] Dark Missionary (10s)",
+				timeRange = true,
+				timelineIndex = 265,
+				timerEndOffset = 1,
+				timerOffset = -14,
+				uuid = "f05abfb8-0d5a-8fac-9f84-40dbf2493cd0",
+				version = 2,
+			},
+		},
+	},
+	[277] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Hotbar_LimitBreak",
+							uuid = "319c1bf4-940d-eba4-a291-ba94e8fba894",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 1366.7,
+				name = "Tank LB",
+				timeRange = true,
+				timelineIndex = 277,
+				timerEndOffset = -2,
+				timerStartOffset = -4,
+				uuid = "f1f12b12-db94-7034-8b75-6096f1d7a39e",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Alert",
+							alertPriority = 3,
+							alertScale = 1,
+							alertTTS = true,
+							alertText = "REMOVE TANK LB BUFF",
+							gVar = "ACR_RikuDRK2_CD",
+							uuid = "3c5eac63-8c25-5cb0-9b99-a1014f8c1512",
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1366.7,
+				name = "Remove Buff (Alert)",
+				timeRange = true,
+				timelineIndex = 277,
+				timerStartOffset = -5,
+				uuid = "58f3ed35-5f12-ca38-ab99-43cbd95a229a",
+				version = 2,
+			},
+		},
+	},
+	[279] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Lua",
+							actionID = 2,
+							actionLua = "SendTextCommand(\"/statusoff \"Dark Force\"\")\nSendTextCommand(\"/statusoff \"Gunmetal Soul\"\")\nSendTextCommand(\"/statusoff \"Land Waker\"\")\nSendTextCommand(\"/statusoff \"Last Bastion\"\")\nself.used = true",
+							gVar = "ACR_RikuDRK2_CD",
+							uuid = "02012938-c691-013d-866a-c5e2a6d63bed",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Alert",
+							alertPriority = 3,
+							alertScale = 1,
+							alertTTS = true,
+							alertText = "REMOVE TANK LB BUFF",
+							gVar = "ACR_RikuDRK2_CD",
+							uuid = "3c5eac63-8c25-5cb0-9b99-a1014f8c1512",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1382.8,
+				name = "Remove Buff",
+				timeRange = true,
+				timelineIndex = 279,
+				timerEndOffset = 1,
+				timerStartOffset = -20,
+				uuid = "cd080c8f-297d-0137-86df-f5133ba5763d",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Hotbar_LimitBreak",
+							uuid = "319c1bf4-940d-eba4-a291-ba94e8fba894",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1382.8,
+				name = "Tank LB",
+				timeRange = true,
+				timelineIndex = 279,
+				timerEndOffset = -2,
+				timerStartOffset = -4,
+				uuid = "72f7d758-a37d-032a-a85e-f46144bdac5f",
+				version = 2,
 			},
 		},
 	},
