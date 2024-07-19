@@ -579,6 +579,39 @@ local tbl =
 			},
 		},
 	},
+	[62] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK3_Tankbar_DarkMissionary",
+							uuid = "deae82b4-fc53-850f-b407-461470e0eae5",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 2144.9,
+				name = "[DRK] Dark Missionary",
+				timeRange = true,
+				timelineIndex = 62,
+				timerStartOffset = -14,
+				uuid = "dd0265d9-55bd-4bb9-9794-04fe4c1d6a76",
+				version = 2,
+			},
+		},
+	},
 	[64] = 
 	{
 		
@@ -905,6 +938,70 @@ local tbl =
 				timelineIndex = 81,
 				timerOffset = -10,
 				uuid = "79098a65-07da-c1a3-9307-fd98e17f8368",
+				version = 2,
+			},
+		},
+	},
+	[85] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK3_Tankbar_DarkMissionary",
+							uuid = "deae82b4-fc53-850f-b407-461470e0eae5",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 3148.4,
+				name = "[DRK] Dark Missionary",
+				timeRange = true,
+				timelineIndex = 85,
+				timerStartOffset = -14,
+				uuid = "7c4362ef-4bc1-11ea-b73d-3197da9b0336",
+				version = 2,
+			},
+		},
+	},
+	[86] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK3_Tankbar_LivingDead",
+							uuid = "19a9dea9-ab81-18f6-a7dd-a0e3e4aeaa0c",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 3157.7,
+				name = "[DRK] Living Dead",
+				timelineIndex = 86,
+				uuid = "204cd0ed-4a87-2a53-97f6-d1559e581b8b",
 				version = 2,
 			},
 		},

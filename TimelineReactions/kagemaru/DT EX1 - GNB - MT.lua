@@ -466,6 +466,40 @@ local tbl =
 			},
 		},
 	},
+	[62] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB3_Tankbar_HeartOfLight",
+							uuid = "201f48a7-035a-6e7f-a591-2364b68352d0",
+							variableTogglesType = 3,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 2144.9,
+				name = "[GNB] Heart of Light",
+				timeRange = true,
+				timelineIndex = 62,
+				timerStartOffset = -14,
+				uuid = "f2f13d3a-85b8-5440-b108-88d5f4b3e48a",
+				version = 2,
+			},
+		},
+	},
 	[64] = 
 	{
 		
@@ -833,6 +867,73 @@ local tbl =
 				timelineIndex = 81,
 				timerOffset = -10,
 				uuid = "57d7a7eb-908d-86c8-a972-64cb7759c84d",
+				version = 2,
+			},
+		},
+	},
+	[85] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB3_Tankbar_HeartOfLight",
+							uuid = "201f48a7-035a-6e7f-a591-2364b68352d0",
+							variableTogglesType = 3,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 3148.4,
+				name = "[GNB] Heart of Light",
+				timeRange = true,
+				timelineIndex = 85,
+				timerStartOffset = -14,
+				uuid = "dbbd6a39-c402-94a4-92d3-6a4efc39ab6e",
+				version = 2,
+			},
+		},
+	},
+	[86] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB3_Tankbar_Superbolide",
+							uuid = "6691be97-2444-12ec-81e1-7a83774eb0d7",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 3157.7,
+				name = "[GNB] Superbolide",
+				timeRange = true,
+				timelineIndex = 86,
+				timerStartOffset = -3,
+				uuid = "355f22a3-4691-4289-98a6-8206bc277a57",
 				version = 2,
 			},
 		},
