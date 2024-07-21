@@ -1199,6 +1199,7 @@ local tbl =
 	},
 	inheritedProfiles = 
 	{
+		"store\\anyone\\extremes\\valigarmanda",
 	},
 	mapID = 1196,
 	version = 2,

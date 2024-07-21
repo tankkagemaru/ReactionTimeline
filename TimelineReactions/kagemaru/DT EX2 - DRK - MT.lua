@@ -987,6 +987,7 @@ local tbl =
 	},
 	inheritedProfiles = 
 	{
+		"store\\anyone\\extremes\\zoraalja",
 	},
 	mapID = 1201,
 	version = 2,
