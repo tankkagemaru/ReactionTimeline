@@ -887,6 +887,61 @@ local tbl =
 			},
 		},
 	},
+	[66] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"95dea6b7-8461-4ef6-b0e4-c1c8da3cfcb3",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB3_Hotbar_Potion",
+							uuid = "c57284f6-8a2e-9c6d-b175-0657eaf2acb1",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 10,
+							actionID = 16138,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "95dea6b7-8461-4ef6-b0e4-c1c8da3cfcb3",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 358.9,
+				name = "[Early Pot]",
+				timeRange = true,
+				timelineIndex = 66,
+				timerEndOffset = 10,
+				timerStartOffset = -10,
+				uuid = "f661d884-e2eb-7508-86a9-e0919663e089",
+				version = 2,
+			},
+		},
+	},
 	[73] = 
 	{
 		
@@ -1248,6 +1303,69 @@ local tbl =
 				timelineIndex = 93,
 				timerOffset = -10,
 				uuid = "bc99d1e5-a532-75a9-86e0-25e75417a653",
+				version = 2,
+			},
+		},
+	},
+	[98] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_HeartOfLight",
+							uuid = "7a1af525-aecc-f8c5-8775-6971bf3cf524",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 563.6,
+				name = "[GNB] HoL",
+				timeRange = true,
+				timelineIndex = 98,
+				timerStartOffset = -14,
+				uuid = "b0c88dc2-1e07-dc39-8422-5b0d3ad8833f",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_Reprisal",
+							uuid = "c230ae23-7e83-051b-8c56-6217ad4b12bb",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 563.6,
+				name = "[T] Reprisal",
+				timeRange = true,
+				timelineIndex = 98,
+				timerStartOffset = -12,
+				uuid = "874a6b8a-72b6-7697-80e6-193fd12634fc",
 				version = 2,
 			},
 		},

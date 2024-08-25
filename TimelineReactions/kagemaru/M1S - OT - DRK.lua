@@ -24,7 +24,7 @@ local tbl =
 				{
 				},
 				mechanicTime = 17.1,
-				name = "Stance On",
+				name = "Stance On (Turn off if no swap)",
 				timelineIndex = 4,
 				timerOffset = -5,
 				uuid = "730f0d67-ed93-8501-80b3-2c67bc9616c8",
@@ -261,6 +261,23 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 34.4,
+				name = "Turn off the above reaction if swapping",
+				timelineIndex = 8,
+				uuid = "357a0171-801f-b9a7-8b0b-4582b3d41ded",
+				version = 2,
+			},
+		},
 	},
 	[17] = 
 	{
@@ -356,6 +373,23 @@ local tbl =
 				timerStartOffset = -1,
 				uuid = "e6dbf1ee-dc8a-9d67-8ac3-838144a7ccc5",
 				version = 2,
+			},
+		},
+	},
+	[37] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Elevate Force Autoface",
+				uuid = "d804814c-7de2-e4f4-96a4-f3fdb47053b3",
+				version = 2,
+			},
+			inheritedObjectUUID = "2ddc678f-8186-5079-82fe-a6d2ba343f00",
+			inheritedOverwrites = 
+			{
+				timerStartOffset = -0.34999999403954,
 			},
 		},
 	},
@@ -685,6 +719,41 @@ local tbl =
 			},
 		},
 	},
+	[72] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuDRK3_Tankbar_OblationOT",
+							uuid = "c9fc963c-2e65-63a5-bc75-f56fc2424e60",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 298.5,
+				name = "[DRK] Oblation MT",
+				timeRange = true,
+				timelineIndex = 72,
+				timerEndOffset = 1,
+				timerOffset = 1,
+				timerStartOffset = -1,
+				uuid = "4ef2c349-47f9-46ca-abb9-36ce34073b41",
+				version = 2,
+			},
+		},
+	},
 	[86] = 
 	{
 		
@@ -845,6 +914,23 @@ local tbl =
 				timerStartOffset = -14,
 				uuid = "4012a932-bbaf-d3b1-9879-9c7af5a30ed9",
 				version = 2,
+			},
+		},
+	},
+	[121] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Update Splinterings",
+				uuid = "83325614-ecfe-8ca9-9c2b-2490367f707c",
+				version = 2,
+			},
+			inheritedObjectUUID = "1643bfdb-9bf8-ff2d-bd53-28226a5dea0a",
+			inheritedOverwrites = 
+			{
+				timerEndOffset = -0.40000000596046,
 			},
 		},
 	},
@@ -1208,6 +1294,38 @@ local tbl =
 				timerOffset = -14,
 				timerStartOffset = -14,
 				uuid = "88ba4bf7-d086-2c25-a4a2-04abdf52331a",
+				version = 2,
+			},
+		},
+	},
+	[156] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuDRK3_Tankbar_LivingDead",
+							uuid = "56e9d532-2215-5c55-8268-3069d6664ec1",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 662.1,
+				name = "Living Dead",
+				timelineIndex = 156,
+				timerOffset = -9,
+				uuid = "6166281c-525b-3353-8e1e-9fbc08b37eef",
 				version = 2,
 			},
 		},

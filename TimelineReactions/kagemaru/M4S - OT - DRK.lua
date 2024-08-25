@@ -91,6 +91,66 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuDRK3_BurnMP",
+							uuid = "6d7f8a66-6ad0-a347-83c7-25b539fc5bc0",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 15.6,
+				name = "[DRK] Burn MP (On)",
+				timelineIndex = 2,
+				timerOffset = -8,
+				uuid = "a4fe256d-6495-31b2-87a5-680ceee21233",
+				version = 2,
+			},
+		},
+	},
+	[6] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuDRK3_BurnMP",
+							gVarValue = 2,
+							uuid = "6d7f8a66-6ad0-a347-83c7-25b539fc5bc0",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 41.3,
+				name = "[DRK] Burn MP (Off)",
+				timelineIndex = 6,
+				timerOffset = -5,
+				uuid = "20bbd2f6-75f2-c387-8024-6fa885dc5645",
+				version = 2,
+			},
+		},
 	},
 	[7] = 
 	{
@@ -740,6 +800,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 232,
 				name = "[DRK] TBN Melee",
 				timeRange = true,
@@ -1119,6 +1180,61 @@ local tbl =
 				timerOffset = 0.5,
 				timerStartOffset = 0.10000000149012,
 				uuid = "5094131f-12f3-92c9-bfa2-a5a1b6a21b44",
+				version = 2,
+			},
+		},
+	},
+	[66] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"95dea6b7-8461-4ef6-b0e4-c1c8da3cfcb3",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB3_Hotbar_Potion",
+							uuid = "c57284f6-8a2e-9c6d-b175-0657eaf2acb1",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 10,
+							actionID = 3625,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "95dea6b7-8461-4ef6-b0e4-c1c8da3cfcb3",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 358.9,
+				name = "[Early Pot]",
+				timeRange = true,
+				timelineIndex = 66,
+				timerEndOffset = 10,
+				timerStartOffset = -10,
+				uuid = "2d8e43af-8217-26b3-8b9b-fadcc29b1e62",
 				version = 2,
 			},
 		},
