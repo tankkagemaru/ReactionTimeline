@@ -253,7 +253,7 @@ local tbl =
 							gVar = "ACR_RikuDRK3_Tankbar_DarkMind",
 							uuid = "d34fbe34-1953-7d5a-8836-db004a11fc1a",
 							variableTogglesType = 3,
-							version = 2,
+							version = 2.1,
 						},
 					},
 				},
@@ -377,39 +377,6 @@ local tbl =
 				timelineIndex = 26,
 				timerOffset = -10,
 				uuid = "bb42c429-2d35-24a0-9025-5d94bde03418",
-				version = 2,
-			},
-		},
-	},
-	[27] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuDRK3_Tankbar_Reprisal",
-							uuid = "02c28110-99e6-7fc8-ab48-4a21574fca6a",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 157.9,
-				name = "[T] Reprisal",
-				timeRange = true,
-				timelineIndex = 27,
-				timerStartOffset = -5,
-				uuid = "c655a674-6765-c7b1-807d-fbf93a394afd",
 				version = 2,
 			},
 		},
@@ -1021,37 +988,6 @@ local tbl =
 				timelineIndex = 78,
 				timerStartOffset = -5,
 				uuid = "d90e0552-a9aa-0055-97c7-894da36dba4b",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuDRK3_Tankbar_TheBlackestNightSelf",
-							uuid = "97566b86-29da-135d-ab59-dcf23f57b84d",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-						inheritedIndex = 1,
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 496.1,
-				name = "[DRK] TBN",
-				timeRange = true,
-				timelineIndex = 78,
-				timerStartOffset = -4,
-				uuid = "067a0aad-be19-4c78-a117-2edf87732ad1",
 				version = 2,
 			},
 		},

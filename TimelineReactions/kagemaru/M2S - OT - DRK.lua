@@ -90,20 +90,6 @@ local tbl =
 		{
 			data = 
 			{
-				name = "Jump",
-				uuid = "06074ed1-1518-25ac-8a19-b175e1ba8757",
-				version = 2,
-			},
-			inheritedObjectUUID = "a1f7a374-05f0-20ad-b538-1e242e63a088",
-			inheritedOverwrites = 
-			{
-				timerStartOffset = 0.10000000149012,
-			},
-		},
-		
-		{
-			data = 
-			{
 				actions = 
 				{
 					
@@ -430,7 +416,7 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_RikuGNB3_Hotbar_Trajectory",
+							gVar = "ACR_RikuDRK3_Hotbar_Shadowstride",
 							uuid = "e17d20bb-c3bb-8227-be14-6d651213ef9f",
 							variableTogglesType = 2,
 							version = 2.1,
@@ -551,7 +537,7 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_RikuGNB3_Hotbar_Trajectory",
+							gVar = "ACR_RikuDRK3_Hotbar_Shadowstride",
 							uuid = "e17d20bb-c3bb-8227-be14-6d651213ef9f",
 							variableTogglesType = 2,
 							version = 2.1,
@@ -896,7 +882,7 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_RikuGNB3_Hotbar_Trajectory",
+							gVar = "ACR_RikuDRK3_Hotbar_Shadowstride",
 							uuid = "e17d20bb-c3bb-8227-be14-6d651213ef9f",
 							variableTogglesType = 2,
 							version = 2.1,
@@ -1011,7 +997,7 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_RikuGNB3_Hotbar_Trajectory",
+							gVar = "ACR_RikuDRK3_Hotbar_Shadowstride",
 							uuid = "e17d20bb-c3bb-8227-be14-6d651213ef9f",
 							variableTogglesType = 2,
 							version = 2.1,
@@ -1064,7 +1050,7 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_RikuGNB3_Hotbar_Trajectory",
+							gVar = "ACR_RikuDRK3_Hotbar_Shadowstride",
 							uuid = "e17d20bb-c3bb-8227-be14-6d651213ef9f",
 							variableTogglesType = 2,
 							version = 2.1,
@@ -1117,7 +1103,7 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_RikuGNB3_Hotbar_Trajectory",
+							gVar = "ACR_RikuDRK3_Hotbar_Shadowstride",
 							uuid = "e17d20bb-c3bb-8227-be14-6d651213ef9f",
 							variableTogglesType = 2,
 							version = 2.1,
