@@ -1679,7 +1679,6 @@ local tbl =
 	inheritedProfiles = 
 	{
 		"store\\anyone\\savage4\\r2s",
-		"M2S - OT - DRK",
 	},
 	mapID = 1228,
 	version = 2,
