@@ -1205,7 +1205,7 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_RikuGNB3_Hotbar_Potion",
+							gVar = "ACR_RikuDRK3_Hotbar_Potion",
 							uuid = "c57284f6-8a2e-9c6d-b175-0657eaf2acb1",
 							variableTogglesType = 2,
 							version = 2.1,
@@ -1219,7 +1219,7 @@ local tbl =
 						data = 
 						{
 							actionCDValue = 10,
-							actionID = 3625,
+							actionID = 7390,
 							category = "Self",
 							comparator = 2,
 							conditionType = 4,

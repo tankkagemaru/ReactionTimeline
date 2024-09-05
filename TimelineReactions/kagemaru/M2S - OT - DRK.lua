@@ -827,6 +827,39 @@ local tbl =
 			},
 		},
 	},
+	[42] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuDRK3_Tankbar_Reprisal",
+							uuid = "42f0125e-ba37-7646-927e-8cd8165bfed2",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 253.9,
+				name = "[T] Reprisal",
+				timeRange = true,
+				timelineIndex = 42,
+				timerStartOffset = -12,
+				uuid = "7964782a-c192-c6e0-a43a-27d59578ba73",
+				version = 2,
+			},
+		},
+	},
 	[48] = 
 	{
 		
@@ -1422,6 +1455,36 @@ local tbl =
 				timelineIndex = 78,
 				timerOffset = -10,
 				uuid = "777e4404-cada-969a-91b9-4d2585d5f9d1",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuDRK3_Tankbar_Reprisal",
+							uuid = "42f0125e-ba37-7646-927e-8cd8165bfed2",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 412.8,
+				name = "[T] Reprisal",
+				timeRange = true,
+				timelineIndex = 78,
+				timerStartOffset = -12,
+				uuid = "14747c5a-2fef-0012-b7ca-35248c5946b2",
 				version = 2,
 			},
 		},

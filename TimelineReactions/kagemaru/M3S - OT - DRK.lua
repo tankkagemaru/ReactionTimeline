@@ -13,6 +13,14 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"d6cc66db-9e0a-7371-84bd-be163fdbab17",
+									true,
+								},
+							},
 							gVar = "ACR_RikuDRK3_Tankbar_Reprisal",
 							uuid = "02c28110-99e6-7fc8-ab48-4a21574fca6a",
 							variableTogglesType = 3,
@@ -22,6 +30,17 @@ local tbl =
 				},
 				conditions = 
 				{
+					
+					{
+						data = 
+						{
+							comparator = 2,
+							conditionType = 6,
+							inRangeValue = 5,
+							uuid = "d6cc66db-9e0a-7371-84bd-be163fdbab17",
+							version = 2,
+						},
+					},
 				},
 				mechanicTime = 11.5,
 				name = "[T] Reprisal",
@@ -267,6 +286,7 @@ local tbl =
 				uuid = "2465f3cc-9ca3-d383-860f-c5b3e9620e95",
 				version = 2,
 			},
+			inheritedIndex = 5,
 		},
 	},
 	[26] = 

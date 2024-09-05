@@ -815,6 +815,7 @@ local tbl =
 							variableTogglesType = 3,
 							version = 2.1,
 						},
+						inheritedIndex = 1,
 					},
 				},
 				conditions = 
@@ -1065,20 +1066,6 @@ local tbl =
 		{
 			data = 
 			{
-				name = "[DRK] Dash",
-				uuid = "642921ac-33cd-99b3-b57e-9374b4aaade2",
-				version = 2,
-			},
-			inheritedObjectUUID = "f28305e0-4c91-cf07-9f6a-f2c779c99542",
-			inheritedOverwrites = 
-			{
-				timerOffset = 0.20000000298023,
-			},
-		},
-		
-		{
-			data = 
-			{
 				actions = 
 				{
 					
@@ -1198,6 +1185,38 @@ local tbl =
 				timerOffset = 0.20000000298023,
 				timerStartOffset = -20,
 				uuid = "567533a1-e875-3d96-a732-83d26a6f80f0",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_Nebula",
+							uuid = "30ad1457-b51f-34ee-97c8-69f1d7dfb1f5",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 295.6,
+				name = "Nebula",
+				timeRange = true,
+				timelineIndex = 52,
+				timerStartOffset = -14,
+				uuid = "e4f4a812-12a3-09e9-b8be-ad12b5dab47c",
 				version = 2,
 			},
 		},
@@ -1625,7 +1644,7 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							gVar = "ACR_RikuGNB2_Tankbar_Reprisal",
+							gVar = "ACR_RikuGNB3_Tankbar_Reprisal",
 							uuid = "6ea81d0f-647c-7b2f-99d2-80938aa7fed5",
 							variableTogglesType = 3,
 							version = 2.1,
@@ -2241,7 +2260,7 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							gVar = "ACR_RikuDRK3_Tankbar_Reprisal",
+							gVar = "ACR_RikuGNB3_Tankbar_Reprisal",
 							uuid = "01eeed32-e5da-65a8-a0b5-2eddb265584a",
 							variableTogglesType = 3,
 							version = 2.1,
@@ -2912,7 +2931,7 @@ local tbl =
 				mechanicTime = 1199.3,
 				name = "[GNB] HoC Self",
 				timelineIndex = 221,
-				timerOffset = -19,
+				timerOffset = -4,
 				uuid = "96ff12b2-929f-3a86-997d-2f7dacd7bc7f",
 				version = 2,
 			},
@@ -3008,7 +3027,7 @@ local tbl =
 				mechanicTime = 1244.3,
 				name = "[GNB] Superbolide",
 				timelineIndex = 237,
-				timerOffset = -3,
+				timerOffset = -2,
 				uuid = "3831f3a9-7c9d-38ca-a62f-de5e6874627e",
 				version = 2,
 			},
@@ -3220,7 +3239,7 @@ local tbl =
 				mechanicTime = 1278.2,
 				name = "[GNB] HoC Self",
 				timelineIndex = 246,
-				timerOffset = -6,
+				timerOffset = -4,
 				uuid = "93943c45-0a5f-fb43-ba87-d0c3e6664e83",
 				version = 2,
 			},
