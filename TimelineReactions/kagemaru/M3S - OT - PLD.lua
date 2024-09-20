@@ -1477,6 +1477,536 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"fcc9017a-41b5-59a9-87b2-1516c77a7741",
+									true,
+								},
+							},
+							gVar = "ACR_RikuPLD3_Hotbar_IronWill",
+							uuid = "584b142b-dc45-e700-9671-e7678b06c133",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 79,
+							category = "Self",
+							uuid = "fcc9017a-41b5-59a9-87b2-1516c77a7741",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 613,
+				name = "[PLD] Stance On",
+				timelineIndex = 100,
+				timerOffset = -20,
+				uuid = "00354611-63b5-83dd-9bc4-75d2fce6020c",
+				version = 2,
+			},
+		},
+	},
+	[113] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuPLD3_Tankbar_Reprisal",
+							uuid = "fe9a0ea6-e183-5a0e-9f93-e5f868569df0",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 675.2,
+				name = "[T] Reprisal",
+				timeRange = true,
+				timelineIndex = 113,
+				timerStartOffset = -5,
+				uuid = "0eb78397-5849-8631-913b-7e8683eae2a6",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuPLD3_RushFoF",
+							uuid = "e7d4cafb-3456-d2bd-9540-d460788b25d8",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 675.2,
+				name = "[PLD] Rush FoF (ON)",
+				timelineIndex = 113,
+				uuid = "c742e312-8925-a7c5-bbbb-6b4aa450cf25",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuPLD3_Tankbar_PassageOfArms",
+							uuid = "14457755-8df9-c42c-9cb7-d2666305d7a7",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 675.2,
+				name = "[PLD] Passsage of Arms",
+				timelineIndex = 113,
+				timerOffset = -0.5,
+				uuid = "8269a1b9-d693-a2a5-a238-3889863be1e5",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuPLD3_Hotbar_Intervene",
+							uuid = "7481649f-96a1-8fd9-b79a-abce32aae363",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 675.2,
+				name = "[PLD] Jump",
+				timelineIndex = 113,
+				timerOffset = 0.5,
+				uuid = "cc3dec6e-e76f-ce3f-8600-2fd19aeb0eaa",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuPLD3_Tankbar_DivineVeil",
+							uuid = "500d6f00-b654-f4d9-b93a-8f80bed72592",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 675.2,
+				name = "[PLD] Divine Veil",
+				timeRange = true,
+				timelineIndex = 113,
+				timerStartOffset = -10,
+				uuid = "67b24200-4bf3-f87f-96bc-fd884b1e4f98",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuPLD3_HoldOneJump",
+							uuid = "7144a9b9-121f-8251-bba9-843d5d930c0c",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 675.2,
+				name = "Hold 1 Jump [ON]",
+				timeRange = true,
+				timelineIndex = 113,
+				timerStartOffset = -15,
+				uuid = "c7dd5db2-a836-1c11-af22-41ee25294a3b",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuPLD3_HoldOneJump",
+							gVarValue = 2,
+							uuid = "7144a9b9-121f-8251-bba9-843d5d930c0c",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 675.2,
+				name = "Hold 1 Jump [OFF]",
+				timeRange = true,
+				timelineIndex = 113,
+				timerStartOffset = 1,
+				uuid = "d79f55db-1f62-f2f8-b92a-1b3582ab95cd",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuPLD3_Tankbar_Rampart",
+							uuid = "18f3616d-5dff-65f8-91a1-20198a90d576",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 675.2,
+				name = "[PLD] Rampart",
+				timeRange = true,
+				timelineIndex = 113,
+				timerStartOffset = -10,
+				uuid = "e651ffb4-4da3-c1a1-961c-ecba8fbac865",
+				version = 2,
+			},
+			inheritedIndex = 8,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuPLD3_Tankbar_Bulwark",
+							uuid = "43c90ddc-6ac5-8e7f-bfc7-74fe67e6b586",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 675.2,
+				name = "[PLD] Bulwark",
+				timeRange = true,
+				timelineIndex = 113,
+				timerStartOffset = -5,
+				uuid = "4eac8dde-8419-64ad-80b1-a57d0cb6b8d5",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuPLD3_Tankbar_HolySheltron",
+							uuid = "e7f50854-874b-0292-8a4e-0d56a063c8b7",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 675.2,
+				name = "[PLD] Holy Sheltron",
+				timeRange = true,
+				timelineIndex = 113,
+				timerStartOffset = -4,
+				uuid = "0531c015-5174-b0ee-8ae9-1628d059cd66",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuPLD3_Tankbar_Guardian",
+							uuid = "5b3ee505-8302-e3ab-a1c3-b11808218d9c",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 675.2,
+				name = "[PLD] Guardian",
+				timeRange = true,
+				timelineIndex = 113,
+				timerStartOffset = -8,
+				uuid = "488fce43-0788-5b5d-9564-e6070af16ec4",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuPLD3_Hotbar_Provoke",
+							uuid = "60a9914b-b791-b5ac-9e26-75942c52983c",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 675.2,
+				name = "[T] Provoke",
+				timeRange = true,
+				timelineIndex = 113,
+				timerStartOffset = -15,
+				uuid = "19f1bd50-ccbd-2e7f-b003-49aaebc8ab56",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuPLD3_Tankbar_HallowedGround",
+							uuid = "bbc2836b-fcb3-0524-9082-18e7af51c290",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 675.2,
+				name = "[PLD] HG",
+				timeRange = true,
+				timelineIndex = 113,
+				timerStartOffset = -2,
+				uuid = "c3841619-47fb-4a0a-a766-07304ac74f37",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							conditions = 
+							{
+								
+								{
+									"fcc9017a-41b5-59a9-87b2-1516c77a7741",
+									true,
+								},
+							},
+							gVar = "ACR_RikuPLD3_Hotbar_IronWill",
+							uuid = "584b142b-dc45-e700-9671-e7678b06c133",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 79,
+							category = "Self",
+							uuid = "fcc9017a-41b5-59a9-87b2-1516c77a7741",
+							version = 2,
+						},
+					},
+				},
+				enabled = false,
+				mechanicTime = 675.2,
+				name = "[PLD] Stance On",
+				timelineIndex = 113,
+				timerOffset = -20,
+				uuid = "d93c7a2e-a9ed-1438-9cec-b4a539e95db1",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuPLD3_Tankbar_InterventionOT",
+							uuid = "e7f50854-874b-0292-8a4e-0d56a063c8b7",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 675.2,
+				name = "[PLD] Intervention OT",
+				timeRange = true,
+				timelineIndex = 113,
+				timerStartOffset = -4,
+				uuid = "ca278d3f-0234-4637-8ad5-545dde194533",
+				version = 2,
+			},
+		},
 	},
 	inheritedProfiles = 
 	{
